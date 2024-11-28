@@ -77,8 +77,12 @@ import {
   MessageBox,
   Message,
   Notification,
+  Descriptions,
+  DescriptionsItem,
 } from 'element-ui';
 
+Vue.use(Descriptions);
+Vue.use(DescriptionsItem);
 Vue.use(Pagination);
 Vue.use(Dialog);
 Vue.use(Autocomplete);

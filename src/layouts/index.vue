@@ -40,7 +40,7 @@ export default {
 <style lang="scss">
 .main {
   // height: calc(100vh - 40px);
-  background-color: goldenrod;
+  background-color: #f2f6fc;
 }
 </style>
 

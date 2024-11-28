@@ -1,6 +1,9 @@
 <template>
   <div class="side-bar" :style="{ width: sideBarWidth }">
-    <div class="icon"><img src="/favicon-32x32.png" alt="" /></div>
+    <div class="icon">
+      <img src="/favicon-32x32.png" alt="" />
+      <span v-if="!isCollapsed">allup</span>
+    </div>
     <div class="menu">
       <router-link v-for="item in menuItems" :key="item.name" :to="item.path">
         <i
@@ -14,7 +17,7 @@
           :class="{
             'current-route': $route.name === item.name,
           }"
-          >{{ item.name }}</span
+          >{{ item.descName }}</span
         >
       </router-link>
     </div>
@@ -39,7 +42,7 @@ export default {
   },
   computed: {
     sideBarWidth() {
-      return this.isCollapsed ? '60px' : '200px';
+      return this.isCollapsed ? '60px' : '150px';
     },
   },
 };
@@ -61,22 +64,34 @@ export default {
   .icon {
     height: 60px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     // img {
     //   height: 100%;
     // }
+
+    span {
+      color: #ffffff;
+      font-size: 20px;
+      padding-left: 2px;
+    }
   }
 
   .menu {
-    padding: 20px;
+    padding: 20px 0;
 
     a {
       display: block;
       color: #ffffff;
       text-decoration: none;
-      font-size: 26px;
+      text-align: left;
+      font-size: 16px;
+      margin-bottom: 20px;
+
+      span {
+        padding-left: 4px;
+      }
     }
   }
 

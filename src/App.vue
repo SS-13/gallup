@@ -27,11 +27,6 @@ body {
   text-align: center;
   color: #2c3e50;
 }
-
-.main {
-  // height: calc(100vh - 40px);
-  background-color: goldenrod;
-}
 </style>
 
 <style>

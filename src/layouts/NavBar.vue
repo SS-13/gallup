@@ -33,7 +33,7 @@ export default {
 .nav-bar {
   position: relative;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 12px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;

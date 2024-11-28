@@ -1,0 +1,26 @@
+[
+  {
+    "fieldCName": "执行力",
+    "fieldEName": "Doer",
+    "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+    "color": "#712F7C"
+  },
+  {
+    "fieldCName": "影响力",
+    "fieldEName": "Influencer",
+    "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+    "color": "#D08C42"
+  },
+  {
+    "fieldCName": "关系建立",
+    "fieldEName": "Warmer",
+    "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+    "color": "#2A73C6"
+  },
+  {
+    "fieldCName": "战略思维",
+    "fieldEName": "Thinker",
+    "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+    "color": "#409261"
+  }
+]
