@@ -7,7 +7,7 @@
       :currentSelectedAdvantage="currentSelectedAdvantage"
     ></field-container>
     <description-container
-      v-if="currentSelectedAdvantage"
+      v-if="hasDescription"
       :advantage="currentSelectedAdvantage"
       @closeModal="closeModal"
     >
@@ -33,15 +33,21 @@ export default {
     return {
       FIELDS_4,
       ADVANTAGES_34,
+      // currentSelectedAdvantage: {},
       currentSelectedAdvantage: {
         ...ADVANTAGES_34[0],
-        color: '#712F7C',
+        color: '#9A38D7',
       },
     };
   },
+  computed: {
+    hasDescription() {
+      return Object.keys(this.currentSelectedAdvantage || {}).length > 0;
+    },
+  },
   methods: {
     closeModal() {
-      this.currentSelectedAdvantage = null;
+      this.currentSelectedAdvantage = {};
     },
     openModal(advantage) {
       this.currentSelectedAdvantage = advantage;

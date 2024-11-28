@@ -25,8 +25,14 @@
         :advantages="advantagesByField(field.fieldEName)"
         :color="field.color"
         :openModal="openModal"
+        :closeModal="closeModal"
         :currentSelectedAdvantage="currentSelectedAdvantage"
+        :statistics="statistics"
       />
+
+      <div v-if="hasStatistics" class="sum">
+        {{ calcSumByField(field.fieldEName) }}
+      </div>
     </div>
   </div>
 </template>
@@ -48,7 +54,15 @@ export default {
       type: Function,
       default: () => () => {},
     },
+    closeModal: {
+      type: Function,
+      default: () => () => {},
+    },
     currentSelectedAdvantage: {
+      type: Object,
+      default: () => {},
+    },
+    statistics: {
       type: Object,
       default: () => {},
     },
@@ -66,6 +80,27 @@ export default {
       return (fieldEName) =>
         // eslint-disable-next-line implicit-arrow-linebreak
         this.advantages.filter((item) => item.Field === fieldEName);
+    },
+    hasStatistics() {
+      // console.log(this.statistics, ' this.statistics');
+      return Object.keys(this.statistics || {}).length > 0;
+    },
+  },
+  methods: {
+    calcSumByField(fieldEName) {
+      const advantagesInField = this.advantages.filter(
+        // eslint-disable-next-line comma-dangle
+        (item) => item.Field === fieldEName
+      );
+
+      return advantagesInField.reduce((sum, item) => {
+        // 检查对象b中是否有当前元素的EName属性，如果有，则累加其值
+        if (this.statistics[item.EName]) {
+          return sum + this.statistics[item.EName];
+        }
+        // 如果没有，直接返回当前的sum
+        return sum;
+      }, 0);
     },
   },
 };
@@ -93,6 +128,7 @@ export default {
     font-size: 16px;
     padding: 10px 0;
     cursor: pointer;
+    filter: grayscale(0.2);
 
     h3,
     p {
@@ -104,6 +140,14 @@ export default {
 
     > p {
       margin-bottom: 10px;
+    }
+
+    .sum {
+      padding: 10px 0 0 0;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
     }
   }
 }

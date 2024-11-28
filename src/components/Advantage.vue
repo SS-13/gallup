@@ -11,11 +11,16 @@
             ? '#fff'
             : '#2c3e50',
       }"
-      @click="openModal({ ...advantage, color })"
-      @keydown="openModal({ ...advantage, color })"
+      @click="handleItemClick({ ...advantage, color })"
+      @keydown="handleItemClick({ ...advantage, color })"
     >
-      <h3>{{ advantage.CName }}</h3>
-      <p>{{ advantage.EName }}</p>
+      <div class="content">
+        <h3>{{ advantage.CName }}</h3>
+        <p>{{ advantage.EName }}</p>
+      </div>
+      <div class="statistics" v-if="hasStatistics">
+        <span>{{ statistics[advantage.EName] || 0 }}</span>
+      </div>
     </div>
   </div>
 </template>
@@ -35,7 +40,15 @@ export default {
       type: Function,
       default: () => {},
     },
+    closeModal: {
+      type: Function,
+      default: () => {},
+    },
     currentSelectedAdvantage: {
+      type: Object,
+      default: () => {},
+    },
+    statistics: {
       type: Object,
       default: () => {},
     },
@@ -44,10 +57,23 @@ export default {
   data() {
     return {};
   },
+  computed: {
+    hasStatistics() {
+      // console.log(this.statistics, ' this.statistics');
+      return Object.keys(this.statistics || {}).length > 0;
+    },
+  },
   mounted() {
     console.log(this.advantages);
   },
   methods: {
+    handleItemClick(params) {
+      if (this.currentSelectedAdvantage.EName === params.EName) {
+        this.closeModal();
+      } else {
+        this.openModal(params);
+      }
+    },
     hexToRgb(color, opacity = 1) {
       // 去除#符号
       const hex = color.replace('#', '');
@@ -75,6 +101,10 @@ export default {
   &__item {
     position: relative;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     padding: 10px 0;
     font-size: 14px;
@@ -82,11 +112,25 @@ export default {
     // opacity: 0.8;
     cursor: pointer;
 
-    > h3,
-    > p {
-      //   color: #ffffff;
-      padding: 0;
-      margin: 0;
+    div {
+      > h3,
+      > p {
+        //   color: #ffffff;
+        padding: 0;
+        margin: 0;
+      }
+    }
+    .content {
+      flex: 1;
+    }
+
+    .statistics {
+      width: auto;
+      height: 100%;
+      text-align: center;
+      padding-right: 20px;
+      font-size: 20px;
+      font-weight: bold;
     }
   }
 

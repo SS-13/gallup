@@ -18,10 +18,10 @@
               fontWeight: 'bold',
             }"
           >
-            成就
+            {{ detail.CName }}
           </div>
           <div :style="{ fontSize: '14px', textAlign: 'left' }">
-            才干主题突出的人大都兢兢业业，锲而不舍。他们乐于忙忙
+            {{ detail.info }}
           </div>
         </div>
       </template>
@@ -31,44 +31,40 @@
           <el-radio-button label="detail">繁</el-radio-button>
         </el-radio-group>
       </template>
-      <el-descriptions-item label="我是（状态）"
-        >一个努力工作的人</el-descriptions-item
-      >
-      <el-descriptions-item label="我会（行为）"
-        >设定工作的节奏</el-descriptions-item
-      >
-      <el-descriptions-item label="我能带来（贡献）"
-        >高强度而持久的努力</el-descriptions-item
-      >
-      <el-descriptions-item label="我需要（需求）"
-        >以自己的节奏工作的自由；不断完成工作以获得充实感</el-descriptions-item
-      >
-      <el-descriptions-item label="我喜欢（价值观）">
-        完成任务
+      <el-descriptions-item label="我是(状态)">{{
+        detail.status
+      }}</el-descriptions-item>
+      <el-descriptions-item label="我会(行为)">{{
+        detail.behavior
+      }}</el-descriptions-item>
+      <el-descriptions-item label="我能带来(贡献)">{{
+        detail.contribution
+      }}</el-descriptions-item>
+      <el-descriptions-item label="我需要(需求)">{{
+        detail.requirement
+      }}</el-descriptions-item>
+      <el-descriptions-item label="我喜欢(价值观)">
+        {{ detail.value }}
         <!-- <el-tag size="small">学校</el-tag> -->
       </el-descriptions-item>
-      <el-descriptions-item label="我讨厌（价值观）"
-        >做事懒散</el-descriptions-item
-      >
-      <el-descriptions-item label="比喻/意象"
-        >完成比赛，到达终点</el-descriptions-item
-      >
-      <el-descriptions-item label="障碍标签"
-        >工作比人更重要</el-descriptions-item
-      >
-      <!-- <el-descriptions-item label="详细说明">
-        “成就”才干突出的人总是渴望有所建树。他们体内有团烈火在熊熊燃烧，促使他们多做事情，多出成果。
-        成就才干突出的人感到每一天似乎都是从零开始。一天结束时，他们必须完成一些有意义的事情，才能对自己感到满意。
-        所谓的“每一天“就是指所有日子—工作日、周末、假期，甚至休假日。哪怕成就再小，如果这一天一无所获，他们就会缺乏“成就”感。
-        他们很少需要以休息或是从事简单的任务来作为完成一项极富挑战项目的嘉奖。
-        他们会感谢别人对过去成就的认可，但动力的驱动下，他们会努力向前，向着目所能及的下一个目标奋进。
-      </el-descriptions-item>
-      <el-descriptions-item label="核心解读">
-        大都兢兢业业，锲而不舍。他们乐于忙忙碌碌并有所作为。
-        追求持续进步和完成任务的内在驱动力
-      </el-descriptions-item> -->
+      <el-descriptions-item label="我讨厌(价值观)">{{
+        detail.value2
+      }}</el-descriptions-item>
+      <el-descriptions-item label="比喻/意象">{{
+        detail.metaphor
+      }}</el-descriptions-item>
+      <el-descriptions-item label="障碍标签">{{
+        detail.obstacle
+      }}</el-descriptions-item>
       <el-descriptions-item label="才干标签">
-        <el-tag size="small">忙碌</el-tag>
+        <el-tag
+          v-for="(tag, index) in detail.tags"
+          :key="`tag_${index}`"
+          size="small"
+          color="#2c3e50"
+          :style="{ color: '#fff' }"
+          >{{ tag }}</el-tag
+        >
       </el-descriptions-item>
     </el-descriptions>
 
@@ -83,24 +79,15 @@
       border
     >
       <el-descriptions-item
-        label="成就"
-        :labelStyle="{ color: '#712F7C', fontWeight: 'bold' }"
-        >我想完成它。</el-descriptions-item
-      >
-      <el-descriptions-item
-        label="行动"
-        :labelStyle="{ color: '#712F7C', fontWeight: 'bold' }"
-        >我想开始做。</el-descriptions-item
-      >
-      <el-descriptions-item
-        label="成就"
-        :labelStyle="{ color: '#712F7C', fontWeight: 'bold' }"
-        >精力充沛。</el-descriptions-item
-      >
-      <el-descriptions-item
-        label="思维"
-        :labelStyle="{ color: '#409261', fontWeight: 'bold' }"
-        >勤于思考。</el-descriptions-item
+        v-for="(c, index) in detail.contrast"
+        :key="`contrast_${index}`"
+        :label="c.name"
+        :labelStyle="{
+          color: c.color,
+          fontWeight: 'bold',
+          filter: 'grayscale(0.2)',
+        }"
+        >{{ c.desc }}</el-descriptions-item
       >
     </el-descriptions>
 
@@ -122,10 +109,10 @@
               fontWeight: 'bold',
             }"
           >
-            成就
+            {{ detail.CName }}
           </div>
           <div :style="{ fontSize: '14px', textAlign: 'left' }">
-            才干主题突出的人大都兢兢业业，锲而不舍。他们乐于忙忙
+            {{ detail.info }}
           </div>
         </div>
       </template>
@@ -137,44 +124,32 @@
       </template>
       <el-descriptions-item label="画面描述">
         <img
-          src="/images/achiever.png"
+          :src="detail.img"
           alt=""
           onerror="this.src='/images/placeholder.png';"
         />
         <!-- <img width="320" height="180" src="/images/placeholder.png" alt="" /> -->
       </el-descriptions-item>
       <el-descriptions-item label="视频描述">
-        <!-- <video
-          preload="auto"
-          controls="controls"
-          src="/videos/achiever.mp4"
-          alt=""
-        >
-          您的浏览器不支持 video 标签。
-        </video> -->
-
         <video controls>
-          <source src="/videos/achiever.mp4" type="video/mp4" />
+          <source :src="detail.video" type="video/mp4" />
           <track src="" kind="captions" srclang="en" label="English" />
           您的浏览器不支持 video 标签。
         </video>
       </el-descriptions-item>
       <el-descriptions-item label="详细说明">
-        “成就”才干突出的人总是渴望有所建树。他们体内有团烈火在熊熊燃烧，促使他们多做事情，多出成果。
-        成就才干突出的人感到每一天似乎都是从零开始。一天结束时，他们必须完成一些有意义的事情，才能对自己感到满意。
-        所谓的“每一天“就是指所有日子—工作日、周末、假期，甚至休假日。哪怕成就再小，如果这一天一无所获，他们就会缺乏“成就”感。
-        他们很少需要以休息或是从事简单的任务来作为完成一项极富挑战项目的嘉奖。
-        他们会感谢别人对过去成就的认可，但动力的驱动下，他们会努力向前，向着目所能及的下一个目标奋进。
+        {{ detail.detailInfo }}
       </el-descriptions-item>
       <el-descriptions-item label="核心解读">
-        大都兢兢业业，锲而不舍。他们乐于忙忙碌碌并有所作为。
-        追求持续进步和完成任务的内在驱动力
+        {{ detail.coreReading }}
       </el-descriptions-item>
     </el-descriptions>
   </div>
 </template>
 
 <script>
+import ADVANTAGES_DETAILS_JSON from '@/utils/data/ADVANTAGES_DETAILS.json';
+
 export default {
   props: {
     advantage: {
@@ -186,8 +161,26 @@ export default {
   data() {
     return {
       descStatus: 'simple',
+      detail: {},
     };
   },
+  watch: {
+    advantage: {
+      immediate: true,
+      handler(newVal, oldVal) {
+        console.log(newVal, oldVal, 'CName');
+        if (newVal) {
+          // eslint-disable-next-line operator-linebreak
+          this.detail =
+            ADVANTAGES_DETAILS_JSON.find(
+              // eslint-disable-next-line comma-dangle
+              (item) => item?.CName === newVal?.CName
+            ) || {};
+        }
+      },
+    },
+  },
+  mounted() {},
 };
 </script>
 
@@ -196,7 +189,7 @@ export default {
   position: relative;
   box-sizing: border-box;
   width: 110vw;
-  height: calc(100vh - 120px);
+  min-height: calc(100vh - 120px);
   background-color: white;
   padding: 14px 20px 20px 20px;
   border-radius: 3px;
@@ -210,6 +203,7 @@ export default {
     width: 150px !important;
     font-weight: bold;
     margin-bottom: 0px !important;
+    text-align: right !important;
   }
 
   &__content {

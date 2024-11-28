@@ -15,7 +15,7 @@ export const routes = [
   {
     path: '/about',
     name: 'about',
-    descName: '关于我们',
+    descName: '关于我们助教',
     icon: 'el-icon-user-solid',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route

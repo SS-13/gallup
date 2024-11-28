@@ -3,25 +3,25 @@ export const FIELDS_4 = [
     fieldCName: '执行力',
     fieldEName: 'Doer',
     desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-    color: '#712F7C',
+    color: '#9A38D7',
   },
   {
     fieldCName: '影响力',
     fieldEName: 'Influencer',
     desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-    color: '#D08C42',
+    color: '#F88825',
   },
   {
     fieldCName: '关系建立',
     fieldEName: 'Warmer',
     desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-    color: '#2A73C6',
+    color: '#2972F4',
   },
   {
     fieldCName: '战略思维',
     fieldEName: 'Thinker',
     desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-    color: '#409261',
+    color: '#45B076',
   },
 ];
 
@@ -244,7 +244,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage2: {
       CName: '追求',
@@ -254,7 +254,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage3: {
       CName: '完美',
@@ -264,7 +264,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage4: {
       CName: '统筹',
@@ -274,7 +274,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage5: {
       CName: '专注',
@@ -284,7 +284,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage6: {
       CName: '成就',
@@ -294,7 +294,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage7: {
       CName: '自信',
@@ -304,7 +304,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage8: {
       CName: '分析',
@@ -314,7 +314,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage9: {
       CName: '统率',
@@ -324,7 +324,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage10: {
       CName: '竞争',
@@ -334,7 +334,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
   },
   {
@@ -348,7 +348,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage2: {
       CName: '个别',
@@ -358,7 +358,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage3: {
       CName: '交往',
@@ -368,7 +368,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage4: {
       CName: '成就',
@@ -378,7 +378,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage5: {
       CName: '理念',
@@ -388,7 +388,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage6: {
       CName: '关联',
@@ -398,7 +398,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage7: {
       CName: '行动',
@@ -408,7 +408,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage8: {
       CName: '学习',
@@ -418,7 +418,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage9: {
       CName: '搜集',
@@ -428,7 +428,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '战略',
@@ -438,7 +438,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
   },
   {
@@ -452,7 +452,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage2: {
       CName: '搜集',
@@ -462,7 +462,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '学习',
@@ -472,7 +472,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '个别',
@@ -482,7 +482,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage5: {
       CName: '和谐',
@@ -492,7 +492,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage6: {
       CName: '排难',
@@ -502,7 +502,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage7: {
       CName: '体谅',
@@ -512,7 +512,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage8: {
       CName: '专注',
@@ -522,7 +522,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage9: {
       CName: '审慎',
@@ -532,7 +532,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage10: {
       CName: '竞争',
@@ -542,7 +542,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
   },
   {
@@ -556,7 +556,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage2: {
       CName: '学习',
@@ -566,7 +566,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '完美',
@@ -576,7 +576,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage4: {
       CName: '思维',
@@ -586,7 +586,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '交往',
@@ -596,7 +596,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage6: {
       CName: '伯乐',
@@ -606,7 +606,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage7: {
       CName: '追求',
@@ -616,7 +616,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage8: {
       CName: '专注',
@@ -626,7 +626,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage9: {
       CName: '统率',
@@ -636,7 +636,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage10: {
       CName: '分析',
@@ -646,7 +646,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
   },
   {
@@ -660,7 +660,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage2: {
       CName: '战略',
@@ -670,7 +670,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '理念',
@@ -680,7 +680,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '统筹',
@@ -690,7 +690,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage5: {
       CName: '个别',
@@ -700,7 +700,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage6: {
       CName: '自信',
@@ -710,7 +710,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage7: {
       CName: '回顾',
@@ -720,7 +720,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage8: {
       CName: '统率',
@@ -730,7 +730,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage9: {
       CName: '学习',
@@ -740,7 +740,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '前瞻',
@@ -750,7 +750,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
   },
   {
@@ -764,7 +764,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage2: {
       CName: '学习',
@@ -774,7 +774,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '个别',
@@ -784,7 +784,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage4: {
       CName: '思维',
@@ -794,7 +794,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '关联',
@@ -804,7 +804,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage6: {
       CName: '行动',
@@ -814,7 +814,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage7: {
       CName: '完美',
@@ -824,7 +824,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage8: {
       CName: '搜集',
@@ -834,7 +834,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage9: {
       CName: '自信',
@@ -844,7 +844,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage10: {
       CName: '统筹',
@@ -854,7 +854,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
   },
   {
@@ -868,7 +868,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage2: {
       CName: '专注',
@@ -878,7 +878,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage3: {
       CName: '审慎',
@@ -888,7 +888,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage4: {
       CName: '学习',
@@ -898,7 +898,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '完美',
@@ -908,7 +908,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage6: {
       CName: '成就',
@@ -918,7 +918,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage7: {
       CName: '分析',
@@ -928,7 +928,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage8: {
       CName: '追求',
@@ -938,7 +938,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage9: {
       CName: '统率',
@@ -948,7 +948,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage10: {
       CName: '搜集',
@@ -958,7 +958,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
   },
   {
@@ -972,7 +972,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage2: {
       CName: '学习',
@@ -982,7 +982,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '成就',
@@ -992,7 +992,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage4: {
       CName: '审慎',
@@ -1002,7 +1002,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage5: {
       CName: '适应',
@@ -1012,7 +1012,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage6: {
       CName: '思维',
@@ -1022,7 +1022,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage7: {
       CName: '体谅',
@@ -1032,7 +1032,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage8: {
       CName: '理念',
@@ -1042,7 +1042,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage9: {
       CName: '伯乐',
@@ -1052,7 +1052,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage10: {
       CName: '完美',
@@ -1062,7 +1062,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
   },
   {
@@ -1076,7 +1076,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage2: {
       CName: '和谐',
@@ -1086,7 +1086,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage3: {
       CName: '思维',
@@ -1096,7 +1096,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '统率',
@@ -1106,7 +1106,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage5: {
       CName: '行动',
@@ -1116,7 +1116,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage6: {
       CName: '竞争',
@@ -1126,7 +1126,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage7: {
       CName: '审慎',
@@ -1136,7 +1136,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage8: {
       CName: '交往',
@@ -1146,7 +1146,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage9: {
       CName: '追求',
@@ -1156,7 +1156,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage10: {
       CName: '前瞻',
@@ -1166,7 +1166,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
   },
   {
@@ -1180,7 +1180,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage2: {
       CName: '成就',
@@ -1190,7 +1190,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage3: {
       CName: '理念',
@@ -1200,7 +1200,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '搜集',
@@ -1210,7 +1210,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '战略',
@@ -1220,7 +1220,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage6: {
       CName: '专注',
@@ -1230,7 +1230,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage7: {
       CName: '思维',
@@ -1240,7 +1240,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage8: {
       CName: '统率',
@@ -1250,7 +1250,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage9: {
       CName: '分析',
@@ -1260,7 +1260,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '交往',
@@ -1270,7 +1270,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
   },
   {
@@ -1284,7 +1284,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage2: {
       CName: '前瞻',
@@ -1294,7 +1294,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '思维',
@@ -1304,7 +1304,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '战略',
@@ -1314,7 +1314,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '搜集',
@@ -1324,7 +1324,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage6: {
       CName: '体谅',
@@ -1334,7 +1334,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage7: {
       CName: '个别',
@@ -1344,7 +1344,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage8: {
       CName: '关联',
@@ -1354,7 +1354,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage9: {
       CName: '信仰',
@@ -1364,7 +1364,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage10: {
       CName: '学习',
@@ -1374,7 +1374,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
   },
   {
@@ -1388,7 +1388,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage2: {
       CName: '成就',
@@ -1398,7 +1398,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage3: {
       CName: '交往',
@@ -1408,7 +1408,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage4: {
       CName: '战略',
@@ -1418,7 +1418,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '思维',
@@ -1428,7 +1428,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage6: {
       CName: '体谅',
@@ -1438,7 +1438,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage7: {
       CName: '搜集',
@@ -1448,7 +1448,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage8: {
       CName: '学习',
@@ -1458,7 +1458,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage9: {
       CName: '专注',
@@ -1468,7 +1468,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage10: {
       CName: '责任',
@@ -1478,7 +1478,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
   },
   {
@@ -1492,7 +1492,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage2: {
       CName: '学习',
@@ -1502,7 +1502,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '思维',
@@ -1512,7 +1512,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '搜集',
@@ -1522,7 +1522,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '适应',
@@ -1532,7 +1532,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage6: {
       CName: '关联',
@@ -1542,7 +1542,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage7: {
       CName: '个别',
@@ -1552,7 +1552,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage8: {
       CName: '交往',
@@ -1562,7 +1562,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage9: {
       CName: '前瞻',
@@ -1572,7 +1572,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '积极',
@@ -1582,7 +1582,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
   },
   {
@@ -1596,7 +1596,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage2: {
       CName: '理念',
@@ -1606,7 +1606,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '统筹',
@@ -1616,7 +1616,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage4: {
       CName: '排难',
@@ -1626,7 +1626,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage5: {
       CName: '学习',
@@ -1636,7 +1636,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage6: {
       CName: '搜集',
@@ -1646,7 +1646,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage7: {
       CName: '积极',
@@ -1656,7 +1656,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage8: {
       CName: '个别',
@@ -1666,7 +1666,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage9: {
       CName: '伯乐',
@@ -1676,7 +1676,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage10: {
       CName: '前瞻',
@@ -1686,7 +1686,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
   },
   {
@@ -1700,7 +1700,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage2: {
       CName: '回顾',
@@ -1710,7 +1710,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '交往',
@@ -1720,7 +1720,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage4: {
       CName: '学习',
@@ -1730,7 +1730,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '体谅',
@@ -1740,7 +1740,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage6: {
       CName: '搜集',
@@ -1750,7 +1750,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage7: {
       CName: '成就',
@@ -1760,7 +1760,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage8: {
       CName: '关联',
@@ -1770,7 +1770,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage9: {
       CName: '伯乐',
@@ -1780,7 +1780,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage10: {
       CName: '统筹',
@@ -1790,7 +1790,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
   },
   {
@@ -1804,7 +1804,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage2: {
       CName: '积极',
@@ -1814,7 +1814,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage3: {
       CName: '理念',
@@ -1824,7 +1824,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '关联',
@@ -1834,7 +1834,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage5: {
       CName: '思维',
@@ -1844,7 +1844,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage6: {
       CName: '取悦',
@@ -1854,7 +1854,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage7: {
       CName: '伯乐',
@@ -1864,7 +1864,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage8: {
       CName: '成就',
@@ -1874,7 +1874,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage9: {
       CName: '前瞻',
@@ -1884,7 +1884,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '责任',
@@ -1894,7 +1894,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
   },
   {
@@ -1908,7 +1908,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage2: {
       CName: '思维',
@@ -1918,7 +1918,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '自信',
@@ -1928,7 +1928,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage4: {
       CName: '战略',
@@ -1938,7 +1938,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '统筹',
@@ -1948,7 +1948,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage6: {
       CName: '纪律',
@@ -1958,7 +1958,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage7: {
       CName: '信仰',
@@ -1968,7 +1968,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage8: {
       CName: '责任',
@@ -1978,7 +1978,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage9: {
       CName: '专注',
@@ -1988,7 +1988,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage10: {
       CName: '统率',
@@ -1998,7 +1998,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
   },
   {
@@ -2012,7 +2012,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage2: {
       CName: '伯乐',
@@ -2022,7 +2022,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage3: {
       CName: '完美',
@@ -2032,7 +2032,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage4: {
       CName: '学习',
@@ -2042,7 +2042,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '个别',
@@ -2052,7 +2052,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage6: {
       CName: '适应',
@@ -2062,7 +2062,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage7: {
       CName: '理念',
@@ -2072,7 +2072,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage8: {
       CName: '积极',
@@ -2082,7 +2082,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage9: {
       CName: '战略',
@@ -2092,7 +2092,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '信仰',
@@ -2102,7 +2102,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
   },
   {
@@ -2116,7 +2116,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage2: {
       CName: '学习',
@@ -2126,7 +2126,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '追求',
@@ -2136,7 +2136,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage4: {
       CName: '搜集',
@@ -2146,7 +2146,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '专注',
@@ -2156,7 +2156,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage6: {
       CName: '取悦',
@@ -2166,7 +2166,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage7: {
       CName: '完美',
@@ -2176,7 +2176,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage8: {
       CName: '统率',
@@ -2186,7 +2186,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage9: {
       CName: '积极',
@@ -2196,7 +2196,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage10: {
       CName: '沟通',
@@ -2206,7 +2206,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
   },
   {
@@ -2220,7 +2220,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage2: {
       CName: '竞争',
@@ -2230,7 +2230,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage3: {
       CName: '理念',
@@ -2240,7 +2240,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '回顾',
@@ -2250,7 +2250,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '学习',
@@ -2260,7 +2260,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage6: {
       CName: '战略',
@@ -2270,7 +2270,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage7: {
       CName: '成就',
@@ -2280,7 +2280,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage8: {
       CName: '追求',
@@ -2290,7 +2290,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage9: {
       CName: '专注',
@@ -2300,7 +2300,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage10: {
       CName: '自信',
@@ -2310,7 +2310,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
   },
   {
@@ -2324,7 +2324,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage2: {
       CName: '交往',
@@ -2334,7 +2334,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage3: {
       CName: '责任',
@@ -2344,7 +2344,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage4: {
       CName: '统率',
@@ -2354,7 +2354,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage5: {
       CName: '专注',
@@ -2364,7 +2364,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage6: {
       CName: '行动',
@@ -2374,7 +2374,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage7: {
       CName: '分析',
@@ -2384,7 +2384,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage8: {
       CName: '审慎',
@@ -2394,7 +2394,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage9: {
       CName: '和谐',
@@ -2404,7 +2404,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage10: {
       CName: '竞争',
@@ -2414,7 +2414,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
   },
   {
@@ -2428,7 +2428,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage2: {
       CName: '责任',
@@ -2438,7 +2438,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage3: {
       CName: '学习',
@@ -2448,7 +2448,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '信仰',
@@ -2458,7 +2458,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage5: {
       CName: '审慎',
@@ -2468,7 +2468,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage6: {
       CName: '关联',
@@ -2478,7 +2478,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage7: {
       CName: '行动',
@@ -2488,7 +2488,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage8: {
       CName: '和谐',
@@ -2498,7 +2498,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage9: {
       CName: '思维',
@@ -2508,7 +2508,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '专注',
@@ -2518,7 +2518,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
   },
   {
@@ -2532,7 +2532,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage2: {
       CName: '沟通',
@@ -2542,7 +2542,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage3: {
       CName: '和谐',
@@ -2552,7 +2552,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage4: {
       CName: '积极',
@@ -2562,7 +2562,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage5: {
       CName: '理念',
@@ -2572,7 +2572,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage6: {
       CName: '伯乐',
@@ -2582,7 +2582,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage7: {
       CName: '学习',
@@ -2592,7 +2592,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage8: {
       CName: '个别',
@@ -2602,7 +2602,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage9: {
       CName: '搜集',
@@ -2612,7 +2612,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '体谅',
@@ -2622,7 +2622,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
   },
   {
@@ -2636,7 +2636,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage2: {
       CName: '责任',
@@ -2646,7 +2646,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage3: {
       CName: '搜集',
@@ -2656,7 +2656,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '取悦',
@@ -2666,7 +2666,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage5: {
       CName: '和谐',
@@ -2676,7 +2676,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage6: {
       CName: '积极',
@@ -2686,7 +2686,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage7: {
       CName: '信仰',
@@ -2696,7 +2696,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage8: {
       CName: '思维',
@@ -2706,7 +2706,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage9: {
       CName: '伯乐',
@@ -2716,7 +2716,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage10: {
       CName: '行动',
@@ -2726,7 +2726,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
   },
   {
@@ -2740,7 +2740,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage2: {
       CName: '搜集',
@@ -2750,7 +2750,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '理念',
@@ -2760,7 +2760,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '成就',
@@ -2770,7 +2770,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage5: {
       CName: '学习',
@@ -2780,7 +2780,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage6: {
       CName: '统筹',
@@ -2790,7 +2790,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage7: {
       CName: '个别',
@@ -2800,7 +2800,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage8: {
       CName: '伯乐',
@@ -2810,7 +2810,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage9: {
       CName: '思维',
@@ -2820,7 +2820,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '适应',
@@ -2830,7 +2830,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
   },
   {
@@ -2844,7 +2844,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage2: {
       CName: '回顾',
@@ -2854,7 +2854,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '思维',
@@ -2864,7 +2864,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '理念',
@@ -2874,7 +2874,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '学习',
@@ -2884,7 +2884,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage6: {
       CName: '前瞻',
@@ -2894,7 +2894,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage7: {
       CName: '关联',
@@ -2904,7 +2904,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage8: {
       CName: '和谐',
@@ -2914,7 +2914,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage9: {
       CName: '个别',
@@ -2924,7 +2924,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage10: {
       CName: '搜集',
@@ -2934,7 +2934,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
   },
   {
@@ -2948,7 +2948,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage2: {
       CName: '搜集',
@@ -2958,7 +2958,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '学习',
@@ -2968,7 +2968,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '伯乐',
@@ -2978,7 +2978,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage5: {
       CName: '回顾',
@@ -2988,7 +2988,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage6: {
       CName: '专注',
@@ -2998,7 +2998,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage7: {
       CName: '思维',
@@ -3008,7 +3008,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage8: {
       CName: '审慎',
@@ -3018,7 +3018,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage9: {
       CName: '前瞻',
@@ -3028,7 +3028,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '分析',
@@ -3038,7 +3038,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
   },
   {
@@ -3052,7 +3052,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage2: {
       CName: '积极',
@@ -3062,7 +3062,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage3: {
       CName: '完美',
@@ -3072,7 +3072,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage4: {
       CName: '个别',
@@ -3082,7 +3082,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage5: {
       CName: '搜集',
@@ -3092,7 +3092,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage6: {
       CName: '沟通',
@@ -3102,7 +3102,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage7: {
       CName: '行动',
@@ -3112,7 +3112,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage8: {
       CName: '包容',
@@ -3122,7 +3122,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage9: {
       CName: '学习',
@@ -3132,7 +3132,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '自信',
@@ -3142,7 +3142,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
   },
   {
@@ -3156,7 +3156,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage2: {
       CName: '完美',
@@ -3166,7 +3166,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage3: {
       CName: '排难',
@@ -3176,7 +3176,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage4: {
       CName: '和谐',
@@ -3186,7 +3186,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage5: {
       CName: '审慎',
@@ -3196,7 +3196,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage6: {
       CName: '积极',
@@ -3206,7 +3206,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage7: {
       CName: '交往',
@@ -3216,7 +3216,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage8: {
       CName: '追求',
@@ -3226,7 +3226,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage9: {
       CName: '搜集',
@@ -3236,7 +3236,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '体谅',
@@ -3246,7 +3246,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
   },
   {
@@ -3260,7 +3260,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage2: {
       CName: '搜集',
@@ -3270,7 +3270,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage3: {
       CName: '交往',
@@ -3280,7 +3280,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage4: {
       CName: '适应',
@@ -3290,7 +3290,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage5: {
       CName: '信仰',
@@ -3300,7 +3300,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage6: {
       CName: '自信',
@@ -3310,7 +3310,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage7: {
       CName: '审慎',
@@ -3320,7 +3320,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage8: {
       CName: '前瞻',
@@ -3330,7 +3330,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage9: {
       CName: '完美',
@@ -3340,7 +3340,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage10: {
       CName: '责任',
@@ -3350,7 +3350,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
   },
   {
@@ -3364,7 +3364,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage2: {
       CName: '成就',
@@ -3374,7 +3374,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage3: {
       CName: '学习',
@@ -3384,7 +3384,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '战略',
@@ -3394,7 +3394,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '责任',
@@ -3404,7 +3404,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage6: {
       CName: '完美',
@@ -3414,7 +3414,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage7: {
       CName: '自信',
@@ -3424,7 +3424,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage8: {
       CName: '分析',
@@ -3434,7 +3434,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage9: {
       CName: '思维',
@@ -3444,7 +3444,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '搜集',
@@ -3454,7 +3454,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
   },
   {
@@ -3468,7 +3468,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage2: {
       CName: '完美',
@@ -3478,7 +3478,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage3: {
       CName: '交往',
@@ -3488,7 +3488,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage4: {
       CName: '学习',
@@ -3498,7 +3498,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage5: {
       CName: '个别',
@@ -3508,7 +3508,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage6: {
       CName: '行动',
@@ -3518,7 +3518,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
     advantage7: {
       CName: '搜集',
@@ -3528,7 +3528,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage8: {
       CName: '体谅',
@@ -3538,7 +3538,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage9: {
       CName: '专注',
@@ -3548,7 +3548,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage10: {
       CName: '沟通',
@@ -3558,7 +3558,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
   },
   {
@@ -3572,7 +3572,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage2: {
       CName: '体谅',
@@ -3582,7 +3582,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage3: {
       CName: '理念',
@@ -3592,7 +3592,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage4: {
       CName: '伯乐',
@@ -3602,7 +3602,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage5: {
       CName: '关联',
@@ -3612,7 +3612,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage6: {
       CName: '思维',
@@ -3622,7 +3622,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage7: {
       CName: '审慎',
@@ -3632,7 +3632,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '执行力',
       fieldEName: 'Doer',
       desc: '执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展',
-      color: '#712F7C',
+      color: '#9A38D7',
     },
     advantage8: {
       CName: '和谐',
@@ -3642,7 +3642,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '关系建立',
       fieldEName: 'Warmer',
       desc: '关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量',
-      color: '#2A73C6',
+      color: '#2972F4',
     },
     advantage9: {
       CName: '搜集',
@@ -3652,7 +3652,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '战略思维',
       fieldEName: 'Thinker',
       desc: '战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策',
-      color: '#409261',
+      color: '#45B076',
     },
     advantage10: {
       CName: '完美',
@@ -3662,7 +3662,7 @@ export const TEACHING_ASSISTANT = [
       fieldCName: '影响力',
       fieldEName: 'Influencer',
       desc: '影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见',
-      color: '#D08C42',
+      color: '#F88825',
     },
   },
 ];

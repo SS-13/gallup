@@ -1,7 +1,7 @@
 <template>
   <div class="side-bar" :style="{ width: sideBarWidth }">
     <div class="icon">
-      <img src="/favicon-32x32.png" alt="" />
+      <img src="favicon-32x32.png" alt="" />
       <span v-if="!isCollapsed">allup</span>
     </div>
     <div class="menu">
