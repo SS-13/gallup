@@ -14,6 +14,21 @@
         助教成员表请上传这里，只能上传xlsx/xls文件
       </div>
     </el-upload>
+
+    <el-upload
+      class="upload-demo"
+      drag
+      action=""
+      ref="upload"
+      accept=".xlsx,.xls"
+      :before-upload="handleMembersUpload"
+    >
+      <i class="el-icon-upload"></i>
+      <div class="el-upload__text">将文件拖到此处，或<em>点击上传</em></div>
+      <div class="el-upload__tip" slot="tip">
+        助教成员表请上传这里，只能上传xlsx/xls文件
+      </div>
+    </el-upload>
   </div>
 </template>
 
