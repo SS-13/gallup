@@ -118,14 +118,19 @@ export default {
         //   color: #ffffff;
         padding: 0;
         margin: 0;
+        text-align: center;
       }
     }
     .content {
-      flex: 1;
+      // flex: 1;
+      box-sizing: border-box;
+      width: 80%;
+      // border: 1px solid #333;
+      text-align: center;
     }
 
     .statistics {
-      width: auto;
+      width: 20%;
       height: 100%;
       text-align: center;
       padding-right: 20px;
