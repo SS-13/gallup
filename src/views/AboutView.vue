@@ -30,7 +30,7 @@
       <el-table :data="tableData" style="width: 100%">
         <el-table-column fixed prop="name" label="姓名" width="90">
         </el-table-column>
-        <el-table-column prop="class" label="班级" width="90"></el-table-column>
+
         <el-table-column label="优势1-5" width="280">
           <template slot-scope="scope">
             <el-tag
@@ -59,6 +59,7 @@
             >
           </template>
         </el-table-column>
+        <el-table-column prop="class" label="班级" width="90"></el-table-column>
       </el-table>
       <el-pagination
         style="margin-top: 20px"

@@ -1,7 +1,7 @@
 <template>
-  <div class="about-us">
-    <div class="about-us__left">
-      <div class="about-us__left__status">
+  <div class="classroom">
+    <div class="classroom__left">
+      <div class="classroom__left__status">
         <el-radio-group v-model="status" size="mini">
           <el-radio-button label="1to5">1-5</el-radio-button>
           <el-radio-button label="1to10">1-10</el-radio-button>
@@ -26,9 +26,9 @@
         :statistics="statistics"
       ></field-container>
     </div>
-    <div class="about-us__right">
+    <div class="classroom__right">
       <el-select
-        class="about-us__right__select"
+        class="classroom__right__select"
         size="mini"
         v-model="classroom"
         placeholder="请选择班级"
@@ -45,7 +45,7 @@
         <el-table-column fixed prop="name" label="姓名" width="90">
         </el-table-column>
         <!-- <el-table-column prop="class" label="班级" width="90"></el-table-column> -->
-        <el-table-column label="优势1-5">
+        <el-table-column label="优势1-5" width="280">
           <template slot-scope="scope">
             <el-tag
               v-for="(advantage, index) in scope.row.advantages1to5"
@@ -59,7 +59,7 @@
             >
           </template>
         </el-table-column>
-        <el-table-column label="优势6-10">
+        <el-table-column label="优势6-10" width="280">
           <template slot-scope="scope">
             <el-tag
               v-for="(advantage, index) in scope.row.advantages6to10"
@@ -84,7 +84,7 @@
         </el-table-column> -->
       </el-table>
       <el-pagination
-        class="about-us__right__pagination"
+        class="classroom__right__pagination"
         style="margin-top: 20px"
         @size-change="handleSizeChange"
         @current-change="handleCurrentChange"
@@ -303,7 +303,7 @@ export default {
 <style lang="scss" scoped>
 </style>
 <style lang="scss" >
-.about-us {
+.classroom {
   position: relative;
   box-sizing: border-box;
   display: flex;
@@ -314,7 +314,7 @@ export default {
   height: 100%;
 
   &__left {
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -333,7 +333,7 @@ export default {
     }
   }
   &__right {
-    width: 60%;
+    width: 50%;
     position: relative;
     box-sizing: border-box;
     display: flex;
