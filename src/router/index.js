@@ -11,6 +11,7 @@ export const routes = [
     descName: '优势才干解读',
     icon: 'el-icon-s-cooperation',
     component: HomeView,
+    auth: [],
   },
   {
     path: '/about',
@@ -21,6 +22,7 @@ export const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue'),
+    auth: ['admin'],
   },
   {
     path: '/class',
@@ -31,6 +33,7 @@ export const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/ClassView.vue'),
+    auth: ['admin'],
   },
   {
     path: '/test',
@@ -41,8 +44,16 @@ export const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/TestView.vue'),
+    auth: ['admin'],
   },
-];
+].filter((item) => {
+  if (item.auth.includes('admin')) {
+    return localStorage.getItem('role') === 'admingallup';
+  }
+  return true;
+});
+
+console.log(routes, 'routes');
 
 const router = new VueRouter({
   routes,

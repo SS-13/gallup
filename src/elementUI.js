@@ -79,8 +79,10 @@ import {
   Notification,
   Descriptions,
   DescriptionsItem,
+  Avatar,
 } from 'element-ui';
 
+Vue.use(Avatar);
 Vue.use(Descriptions);
 Vue.use(DescriptionsItem);
 Vue.use(Pagination);
