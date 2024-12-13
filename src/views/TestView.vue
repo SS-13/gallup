@@ -76,8 +76,10 @@ export default {
       reader.onload = (e) => {
         const data = e.target.result;
         const workbook = XLSX.read(data, { type: 'binary' });
-        // console.log(workbook, 'workbook');
-        const sheetName = workbook.SheetNames[workbook.SheetNames.length - 1];
+        console.log(workbook, 'workbook');
+        // eslint-disable-next-line operator-linebreak
+        const sheetName =
+          workbook.SheetNames[workbook.SheetNames.indexOf('助教前10才干分布')];
         console.log(sheetName, 'sheetName');
         const sheet = workbook.Sheets[sheetName];
         const jsonData = XLSX.utils.sheet_to_json(sheet);
@@ -102,7 +104,7 @@ export default {
             });
           }
         });
-        // console.log(JSON.stringify(members));
+        console.log(members);
         localStorage.setItem('members', JSON.stringify(members));
       };
       reader.readAsBinaryString(file);
@@ -212,18 +214,25 @@ export default {
           if (item['你的真实姓名']) {
             const advantages = {};
             // 6-10项优势才干: "思维, 理念, 体谅, 战略, 审慎"
-            const advantages6to10Arr = item['6-10项优势才干'].split(',');
-            const advantages1to5Arr = item['前五项优势才干'].split(',');
+            const advantages6to10Arr = item['第6-10项优势才干'].split(' ');
+            const advantages1to5Arr = item['前5项优势才干'].split(' ');
+            const advantages30to34 = item['后五才干'].split(' ');
             advantages6to10Arr.forEach((o, idx) => {
               advantages[`advantage${idx + 6}`] = this.findAdvantage(
                 // eslint-disable-next-line comma-dangle
-                o.trim()
+                o.trim(),
               );
             });
             advantages1to5Arr.forEach((o, idx) => {
               advantages[`advantage${idx + 1}`] = this.findAdvantage(
                 // eslint-disable-next-line comma-dangle
-                o.trim()
+                o.trim(),
+              );
+            });
+            advantages30to34.forEach((o, idx) => {
+              advantages[`advantage${idx + 30}`] = this.findAdvantage(
+                // eslint-disable-next-line comma-dangle
+                o.trim(),
               );
             });
             console.log(advantages, 'advantages');

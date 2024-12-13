@@ -5,6 +5,7 @@
         <el-radio-group v-model="status" size="mini">
           <el-radio-button label="1to5">1-5</el-radio-button>
           <el-radio-button label="1to10">1-10</el-radio-button>
+          <el-radio-button label="30to34">30-34</el-radio-button>
         </el-radio-group>
 
         <el-tooltip
@@ -24,6 +25,7 @@
         :closeModal="closeModal"
         :currentSelectedAdvantage="currentSelectedAdvantage"
         :statistics="statistics"
+        language="zh"
       ></field-container>
     </div>
     <div class="classroom__right">
@@ -32,6 +34,7 @@
         size="mini"
         v-model="classroom"
         placeholder="请选择班级"
+        @change="handleChange"
       >
         <el-option
           v-for="item in classOptions"
@@ -41,60 +44,17 @@
         >
         </el-option>
       </el-select>
-      <el-table :data="tableData" style="width: 100%">
-        <el-table-column fixed prop="name" label="姓名" width="90">
-        </el-table-column>
-        <!-- <el-table-column prop="class" label="班级" width="90"></el-table-column> -->
-        <el-table-column label="优势1-5" width="280">
-          <template slot-scope="scope">
-            <el-tag
-              v-for="(advantage, index) in scope.row.advantages1to5"
-              :key="`advantage1_5_${index}`"
-              size="small"
-              :color="advantage.color"
-              :style="{
-                filter: 'grayscale(0.1)',
-              }"
-              >{{ advantage.CName }}</el-tag
-            >
-          </template>
-        </el-table-column>
-        <el-table-column label="优势6-10" width="280">
-          <template slot-scope="scope">
-            <el-tag
-              v-for="(advantage, index) in scope.row.advantages6to10"
-              :key="`advantage6_10_${index}`"
-              size="small"
-              :color="advantage.color"
-              :style="{
-                filter: 'grayscale(0.1)',
-              }"
-              >{{ advantage.CName }}</el-tag
-            >
-          </template>
-        </el-table-column>
-        <!-- <el-table-column
-          fixed
-          prop="problem"
-          label="期待解决的问题"
-          width="280"
-        >
-        </el-table-column>
-        <el-table-column fixed prop="want" label="想要收获" width="280">
-        </el-table-column> -->
-      </el-table>
-      <el-pagination
-        class="classroom__right__pagination"
-        style="margin-top: 20px"
-        @size-change="handleSizeChange"
-        @current-change="handleCurrentChange"
+
+      <member-table
+        :tableData="tableData"
         :current-page="currentPage"
-        :page-sizes="[5, 10, 15, 20]"
         :page-size="pageSize"
-        layout="total, sizes, prev, pager, next, jumper"
         :total="total"
-      >
-      </el-pagination>
+        :handle-sort="handleSort"
+        :calc-rate="calcRate"
+        :handle-size-change="handleSizeChange"
+        :handle-current-change="handleCurrentChange"
+      ></member-table>
     </div>
   </div>
 </template>
@@ -102,9 +62,14 @@
 <script>
 // import { TEACHING_ASSISTANT } from '@/utils/strengths';
 import CLASSMATES_4_JSON from '@/utils/data/CLASSMATES_4.json';
+import CLASSMATES_5_JSON from '@/utils/data/CLASSMATES_5.json';
+// eslint-disable-next-line import/no-unresolved
+// import CLASSMATES_DEMO_JSON from '@/utils/data/CLASSMATES_DEMO.json';
 import ADVANTAGES_34 from '@/utils/data/ADVANTAGES_34.json';
 import FIELDS_4 from '@/utils/data/FIELDS_4.json';
+import { ATTENTION_ANDICATOR } from '@/utils/tool';
 import Field from '@/components/Field.vue';
+import MemberTable from '@/components/MemberTable.vue';
 
 export default {
   name: 'ClassView',
@@ -115,6 +80,7 @@ export default {
       currentSelectedAdvantage: {},
       statistics1to5: {},
       statistics1to10: {},
+      statistics30to34: {},
       status: '1to5',
       members: [],
       tableData: [],
@@ -122,20 +88,31 @@ export default {
       pageSize: 10,
       total: 0,
       update: 0,
-      classroom: '4',
+      classroom: '5',
       classOptions: [
         {
           value: '4',
           label: '4班',
         },
+        {
+          value: '5',
+          label: '5班',
+        },
+        // {
+        //   value: 'DEMO',
+        //   label: '测试组',
+        // },
       ],
       classes: {
         CLASSMATES_4_JSON,
+        CLASSMATES_5_JSON,
+        // CLASSMATES_DEMO_JSON,
       },
     };
   },
   components: {
     [Field.name]: Field,
+    [MemberTable.name]: MemberTable,
   },
   mounted() {
     this.handleData();
@@ -153,12 +130,51 @@ export default {
   },
   computed: {
     statistics() {
+      if (this.status === '30to34') {
+        return this.statistics30to34;
+      }
       return this.status === '1to5'
         ? this.statistics1to5
         : this.statistics1to10;
     },
   },
   methods: {
+    handleSort({ order }) {
+      // console.log(order);
+      if (order === 'ascending') {
+        this.members.sort((a, b) => a.rate - b.rate);
+      } else if (order === 'descending') {
+        this.members.sort((a, b) => b.rate - a.rate);
+      } else {
+        this.members.sort((a, b) => b.sortedIndex - a.sortedIndex);
+      }
+
+      this.update += 1;
+    },
+    calcRate(member) {
+      // console.log(member, 'calcRate');
+      const { advantages1to5, advantages6to10, advantages30to34 } = member;
+      const advantage1to10 = [...advantages1to5, ...advantages6to10];
+
+      let star = 0;
+
+      advantage1to10.forEach((item) => {
+        if (ATTENTION_ANDICATOR.includes(item.CName)) {
+          star += 1;
+        }
+      });
+
+      advantages30to34.forEach((item) => {
+        if (['成就'].includes(item.CName)) {
+          star += 1;
+        }
+      });
+
+      return star;
+    },
+    handleChange() {
+      this.handleData();
+    },
     closeModal() {
       this.currentSelectedAdvantage = {};
       this.resetPageInfo();
@@ -172,6 +188,7 @@ export default {
     handleData() {
       const statistics1to5 = {};
       const statistics1to10 = {};
+      const statistics30to34 = {};
 
       this.members = this.classes[`CLASSMATES_${this.classroom}_JSON`].map(
         (item, index) => {
@@ -189,6 +206,11 @@ export default {
                 statistics1to10[temp.EName] = 0;
               }
               statistics1to10[temp.EName] += 1;
+
+              // if (!statistics30to34[temp.EName]) {
+              //   statistics30to34[temp.EName] = 0;
+              // }
+              // statistics30to34[temp.EName] += 1;
 
               advantages1to5.push({
                 ...temp,
@@ -210,19 +232,41 @@ export default {
             }
           }
 
+          const advantages30to34 = [];
+          // eslint-disable-next-line no-plusplus
+          for (let i = 30; i <= 34; i++) {
+            if (item[`advantage${i}`]) {
+              const temp = item[`advantage${i}`];
+              if (!statistics30to34[temp.EName]) {
+                statistics30to34[temp.EName] = 0;
+              }
+              statistics30to34[temp.EName] += 1;
+              advantages30to34.push({
+                ...item[`advantage${i}`],
+              });
+            }
+          }
+
           return {
             sortedIndex: index + 1,
             ...item,
             advantages1to5,
             advantages6to10,
+            advantages30to34,
+            rate: this.calcRate({
+              advantages1to5,
+              advantages6to10,
+              advantages30to34,
+            }),
           };
           // eslint-disable-next-line comma-dangle
-        }
+        },
       );
 
-      console.log(statistics1to5, statistics1to10);
+      // console.log(statistics1to5, statistics1to10);
       this.statistics1to5 = statistics1to5;
       this.statistics1to10 = statistics1to10;
+      this.statistics30to34 = statistics30to34;
 
       this.update += 1;
     },
@@ -232,11 +276,11 @@ export default {
     filterMembers() {
       let filteredMembers = this.members;
 
-      console.log(this.status, 'status');
+      // console.log(this.status, 'status');
 
       if (this.currentSelectedAdvantage.EName) {
         filteredMembers = this.members.filter((item) => {
-          console.log(item, '----');
+          // console.log(item, '----');
           let flag = false;
           if (this.status === '1to5') {
             // item.advantages1to5
@@ -248,7 +292,7 @@ export default {
                 break;
               }
             }
-          } else {
+          } else if (this.status === '1to10') {
             const combinedAdvantages1to10 = [
               ...item.advantages1to5,
               ...item.advantages6to10,
@@ -256,6 +300,15 @@ export default {
             // eslint-disable-next-line no-plusplus
             for (let i = 0; i < combinedAdvantages1to10.length; i++) {
               const temp = combinedAdvantages1to10[i];
+              if (temp.EName === this.currentSelectedAdvantage.EName) {
+                flag = true;
+                break;
+              }
+            }
+          } else if (this.status === '30to34') {
+            // eslint-disable-next-line no-plusplus
+            for (let i = 0; i < item.advantages30to34.length; i++) {
+              const temp = item.advantages30to34[i];
               if (temp.EName === this.currentSelectedAdvantage.EName) {
                 flag = true;
                 break;
@@ -269,14 +322,14 @@ export default {
       return filteredMembers;
     },
     handleCurrentPageData() {
-      console.log(
-        this.currentSelectedAdvantage,
-        this.members,
-        // eslint-disable-next-line comma-dangle
-        'currentSelectedAdvantage'
-      );
+      // console.log(
+      //   this.currentSelectedAdvantage,
+      //   this.members,
+      //   // eslint-disable-next-line comma-dangle
+      //   'currentSelectedAdvantage'
+      // );
       const filteredMembers = this.filterMembers();
-      console.log(filteredMembers);
+      // console.log(filteredMembers);
       this.total = filteredMembers.length;
 
       const startIndex = (this.currentPage - 1) * this.pageSize;
@@ -287,12 +340,12 @@ export default {
       this.tableData = filteredMembers.slice(startIndex, endIndex);
     },
     handleSizeChange(val) {
-      console.log(`每页 ${val} 条`);
+      // console.log(`每页 ${val} 条`);
       this.pageSize = val;
       this.update += 1;
     },
     handleCurrentChange(val) {
-      console.log(`当前页: ${val}`);
+      // console.log(`当前页: ${val}`);
       this.currentPage = val;
       this.update += 1;
     },
@@ -314,7 +367,7 @@ export default {
   height: 100%;
 
   &__left {
-    width: 50%;
+    width: 33%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -333,7 +386,7 @@ export default {
     }
   }
   &__right {
-    width: 50%;
+    width: 67%;
     position: relative;
     box-sizing: border-box;
     display: flex;

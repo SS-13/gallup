@@ -188,7 +188,7 @@ export default {
 .descripton-container {
   position: relative;
   box-sizing: border-box;
-  width: 110vw;
+  width: 100%;
   min-height: calc(100vh - 120px);
   background-color: white;
   padding: 14px 20px 20px 20px;

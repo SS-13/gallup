@@ -15,9 +15,9 @@
         trigger="hover"
         :content="field.desc"
       >
-        <div slot="reference">
-          <h3>{{ field.fieldCName }}</h3>
-          <p>{{ field.fieldEName }}</p>
+        <div class="field-container__item__reference" slot="reference">
+          <h3 v-if="showLang('zh')">{{ field.fieldCName }}</h3>
+          <p v-if="showLang('en')">{{ field.fieldEName }}</p>
         </div>
       </el-popover>
 
@@ -28,6 +28,7 @@
         :closeModal="closeModal"
         :currentSelectedAdvantage="currentSelectedAdvantage"
         :statistics="statistics"
+        :language="language"
       />
 
       <div v-if="hasStatistics" class="sum">
@@ -66,6 +67,10 @@ export default {
       type: Object,
       default: () => {},
     },
+    language: {
+      type: String,
+      default: 'all',
+    },
   },
   name: 'FieldContainer',
   components: {
@@ -85,12 +90,21 @@ export default {
       // console.log(this.statistics, ' this.statistics');
       return Object.keys(this.statistics || {}).length > 0;
     },
+    showLang() {
+      return (lang) => {
+        if (this.language === 'all') {
+          return true;
+        }
+
+        return this.language === lang;
+      };
+    },
   },
   methods: {
     calcSumByField(fieldEName) {
       const advantagesInField = this.advantages.filter(
         // eslint-disable-next-line comma-dangle
-        (item) => item.Field === fieldEName
+        (item) => item.Field === fieldEName,
       );
 
       return advantagesInField.reduce((sum, item) => {
@@ -130,6 +144,10 @@ export default {
     cursor: pointer;
     filter: grayscale(0.2);
 
+    &__reference {
+      margin-bottom: 10px;
+    }
+
     h3,
     p {
       color: #ffffff;
@@ -138,9 +156,9 @@ export default {
       font-weight: bold;
     }
 
-    > p {
-      margin-bottom: 10px;
-    }
+    // > p {
+    //   margin-bottom: 10px;
+    // }
 
     .sum {
       padding: 10px 0 0 0;

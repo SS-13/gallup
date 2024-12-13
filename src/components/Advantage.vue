@@ -15,8 +15,8 @@
       @keydown="handleItemClick({ ...advantage, color })"
     >
       <div class="content">
-        <h3>{{ advantage.CName }}</h3>
-        <p>{{ advantage.EName }}</p>
+        <h3 v-if="showLang('zh')">{{ advantage.CName }}</h3>
+        <p v-if="showLang('en')">{{ advantage.EName }}</p>
       </div>
       <div class="statistics" v-if="hasStatistics">
         <span>{{ statistics[advantage.EName] || 0 }}</span>
@@ -52,6 +52,10 @@ export default {
       type: Object,
       default: () => {},
     },
+    language: {
+      type: String,
+      default: 'all',
+    },
   },
   name: 'AdvantageContainer',
   data() {
@@ -61,6 +65,15 @@ export default {
     hasStatistics() {
       // console.log(this.statistics, ' this.statistics');
       return Object.keys(this.statistics || {}).length > 0;
+    },
+    showLang() {
+      return (lang) => {
+        if (this.language === 'all') {
+          return true;
+        }
+
+        return this.language === lang;
+      };
     },
   },
   mounted() {

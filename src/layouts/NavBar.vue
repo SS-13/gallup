@@ -49,6 +49,7 @@ export default {
   data() {
     const isAdmin = localStorage.getItem('role') === 'admingallup';
     return {
+      isAdmin,
       circleUrl: isAdmin ? avatarAdmin : avatarDefault,
       dialogVisible: false,
       form: {},
@@ -65,6 +66,9 @@ export default {
     },
     handleLogin() {
       console.log('Login');
+      if (this.isAdmin) {
+        return;
+      }
       this.dialogVisible = true;
     },
     handleSubmit() {

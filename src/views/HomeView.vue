@@ -1,17 +1,21 @@
 <template>
   <div class="home">
-    <field-container
-      :fields="FIELDS_4"
-      :advantages="ADVANTAGES_34"
-      :openModal="openModal"
-      :currentSelectedAdvantage="currentSelectedAdvantage"
-    ></field-container>
-    <description-container
-      v-if="hasDescription"
-      :advantage="currentSelectedAdvantage"
-      @closeModal="closeModal"
-    >
-    </description-container>
+    <div class="home_left">
+      <field-container
+        :fields="FIELDS_4"
+        :advantages="ADVANTAGES_34"
+        :openModal="openModal"
+        :currentSelectedAdvantage="currentSelectedAdvantage"
+      ></field-container>
+    </div>
+    <div class="home_right">
+      <description-container
+        v-if="hasDescription"
+        :advantage="currentSelectedAdvantage"
+        @closeModal="closeModal"
+      >
+      </description-container>
+    </div>
   </div>
 </template>
 
@@ -64,5 +68,13 @@ export default {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+
+  .home_left {
+    width: 50%;
+  }
+
+  .home_right {
+    width: 50%;
+  }
 }
 </style>

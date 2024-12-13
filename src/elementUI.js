@@ -80,8 +80,10 @@ import {
   Descriptions,
   DescriptionsItem,
   Avatar,
+  Popconfirm,
 } from 'element-ui';
 
+Vue.use(Popconfirm);
 Vue.use(Avatar);
 Vue.use(Descriptions);
 Vue.use(DescriptionsItem);
