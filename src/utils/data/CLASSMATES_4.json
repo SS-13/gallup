@@ -102,11 +102,58 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
+    "advantage30": {
+      "CName": "沟通",
+      "EName": "Communication",
+      "DESC": "热爱表达，妙笔生花，擅长沟通。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage31": {
+      "CName": "统率",
+      "EName": "Command",
+      "DESC": "天生的领袖，有大将风度，运筹帷幄，指挥若定。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage32": {
+      "CName": "取悦",
+      "EName": "Woo",
+      "DESC": "喜欢结交新人并博取其欢心，能够在人际交往中打破沉默，与他人建立联系，并从中得到满足。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage33": {
+      "CName": "竞争",
+      "EName": "Competition",
+      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage34": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
     "industry": "审计",
-    "position": "审计助理",
-    "wxNickname": "nancytam55",
-    "problem": "害怕与别人发生冲突",
-    "want": "了解自己。"
+    "position": "审计助理"
   },
   {
     "name": "蒋婉莹",
@@ -211,106 +258,47 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "industry": "上海/生命科学-生物医药CRO",
-    "position": "大客户销售",
-    "wxNickname": "Kelly",
-    "problem": "知道工作要分优先级，但目前工作很琐碎，且随时会有突发重要的事，导致时间管理很混乱，且很少做深度思考，总结",
-    "want": "了解自己及自己的优势，知道如何利用优势以及识别别人的优势，促进工作生活更加顺利"
-  },
-  {
-    "name": "龙丹丹",
-    "class": 4,
-    "advantage6": {
-      "CName": "排难",
-      "EName": "Restorative",
-      "DESC": "是解决问题的行家里手，善于发现问题并解决问题。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage7": {
-      "CName": "统筹",
-      "EName": "Arranger",
-      "DESC": "一个人也要像一支队伍，擅长组织和安排。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage8": {
-      "CName": "积极",
-      "EName": "Positivity",
-      "DESC": "浑身充满了富有感染力的热情，乐观向上，并能感召周围的人。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage9": {
-      "CName": "审慎",
-      "EName": "Deliberative",
-      "DESC": "每做一个决定或选择时均慎之又慎，会设想所有可能遇到的困难。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage10": {
-      "CName": "成就",
-      "EName": "Achiever",
+    "advantage30": {
+      "CName": "追求",
+      "EName": "Significance",
       "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
     },
-    "advantage1": {
-      "CName": "分析",
-      "EName": "Analytical",
-      "DESC": "善于思考，勤于自省，敏于探讨，数据会告诉你一切。",
+    "advantage31": {
+      "CName": "前瞻",
+      "EName": "Futuristic",
+      "DESC": "对未来着迷，想到未来，就很激动/兴奋，如果有人跟你说过去怎样怎样，没一会儿就跑神了，但如果聊到未来如何如何，立刻就来劲了，关注行业动态，新动向能很快掌握。",
       "Field": "Thinker",
       "fieldCName": "战略思维",
       "fieldEName": "Thinker",
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
-    "advantage2": {
-      "CName": "交往",
-      "EName": "Relator",
-      "DESC": "喜欢人际间的亲密关系，最大的满足是与朋友一道为实现一个目标而共同努力。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
+    "advantage32": {
+      "CName": "信仰",
+      "EName": "Belief",
+      "DESC": "价值观大过天，对自己所信仰的事业非常忠诚。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
     },
-    "advantage3": {
-      "CName": "伯乐",
-      "EName": "Developer",
-      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
+    "advantage33": {
+      "CName": "回顾",
+      "EName": "Context",
+      "DESC": "喜欢追溯从前，通过思考过去来了解现状。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
     },
-    "advantage4": {
-      "CName": "个别",
-      "EName": "Individualization",
-      "DESC": "识别并尊重个体差异，喜欢观察不同人的习惯和喜好，经常会发现某个人和我认识的另外某个人“很像”，社交风格比较灵活，因为会看人下菜。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage5": {
+    "advantage34": {
       "CName": "纪律",
       "EName": "Discipline",
       "DESC": "维持秩序与效率，制定了时间表，就会按照计划行动，喜欢检查，看看物品是不是在该在的地方，如果不在，就会不舒服，不喜欢那些不遵守规则的人。",
@@ -320,11 +308,8 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
-    "industry": "珠宝零售",
-    "position": "区域经理",
-    "wxNickname": "龙丹丹",
-    "problem": "自身管理能力提升，带领团队业绩突破，明年提升薪资20%。",
-    "want": "找到自己的才干，发挥自己的长板做事，并学会发现身边人的优势。"
+    "industry": "上海/生命科学-生物医药CRO",
+    "position": "大客户销售"
   },
   {
     "name": "姚凯嘉",
@@ -429,11 +414,58 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
+    "advantage30": {
+      "CName": "适应",
+      "EName": "Adaptability",
+      "DESC": "拥抱变化，灵活应变。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage31": {
+      "CName": "竞争",
+      "EName": "Competition",
+      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage32": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage33": {
+      "CName": "伯乐",
+      "EName": "Developer",
+      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage34": {
+      "CName": "取悦",
+      "EName": "Woo",
+      "DESC": "喜欢结交新人并博取其欢心，能够在人际交往中打破沉默，与他人建立联系，并从中得到满足。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
     "industry": "暂无",
-    "position": "人力资源主管",
-    "wxNickname": "大耳朵图图",
-    "problem": "帮助朋友和孩子",
-    "want": "感兴趣，拓宽视角，为自己赋能。找机会，做副业。"
+    "position": "人力资源主管"
   },
   {
     "name": "文晓",
@@ -538,11 +570,58 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
+    "advantage30": {
+      "CName": "行动",
+      "EName": "Activator",
+      "DESC": "喜欢问“什么时候可以开始？”，认为没有行动，一切皆为空谈，惟有行动才能做事情，惟有行动才能出业绩。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage31": {
+      "CName": "竞争",
+      "EName": "Competition",
+      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage32": {
+      "CName": "适应",
+      "EName": "Adaptability",
+      "DESC": "拥抱变化，灵活应变。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage33": {
+      "CName": "统率",
+      "EName": "Command",
+      "DESC": "天生的领袖，有大将风度，运筹帷幄，指挥若定。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage34": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
     "industry": "制药业、地产、物业",
-    "position": "HRBP",
-    "wxNickname": "兰淼Smile",
-    "problem": "自我感觉是不能很好地和人打交道，偏偏干的还是人事，每天游走于离职状态中，内耗严重。",
-    "want": "1、应用于工作中；\n2、发展副业。"
+    "position": "HRBP"
   },
   {
     "name": "张雷",
@@ -647,66 +726,17 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
-    "industry": "重庆/卫生领域",
-    "position": "工作人员",
-    "wxNickname": "张雷",
-    "problem": "如何保持情绪稳定。",
-    "want": "1.发现自己的优势，练习并发挥自己的优势；\n2.学会发现他人优势的能力，帮助他人寻找优势、发挥优势。"
-  },
-  {
-    "name": "李增杰",
-    "class": 4,
-    "advantage6": {
-      "CName": "伯乐",
-      "EName": "Developer",
-      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage7": {
-      "CName": "积极",
-      "EName": "Positivity",
-      "DESC": "浑身充满了富有感染力的热情，乐观向上，并能感召周围的人。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage8": {
-      "CName": "追求",
-      "EName": "Significance",
-      "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
-      "Field": "Influencer",
-      "fieldCName": "影响力",
-      "fieldEName": "Influencer",
-      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
-      "color": "#F88825"
-    },
-    "advantage9": {
-      "CName": "交往",
-      "EName": "Relator",
-      "DESC": "喜欢人际间的亲密关系，最大的满足是与朋友一道为实现一个目标而共同努力。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage10": {
-      "CName": "思维",
-      "EName": "Intellection",
-      "DESC": "喜欢思考，喜欢思想活动，喜欢锻炼大脑“肌肉”，把它们四面抻扯，这种对思想活动的需求有可能是专注的，专注的焦点取决于你的其他优势。",
+    "advantage30": {
+      "CName": "理念",
+      "EName": "Ideation",
+      "DESC": "痴迷于各种奇思妙想，能够从看似毫无关联的现象中找到彼此之间的联系。",
       "Field": "Thinker",
       "fieldCName": "战略思维",
       "fieldEName": "Thinker",
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
-    "advantage1": {
+    "advantage31": {
       "CName": "排难",
       "EName": "Restorative",
       "DESC": "是解决问题的行家里手，善于发现问题并解决问题。",
@@ -716,51 +746,38 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
-    "advantage2": {
-      "CName": "和谐",
-      "EName": "Harmony",
-      "DESC": "渴求协调一致，避免冲突，寻求共识。",
+    "advantage32": {
+      "CName": "战略",
+      "EName": "Strategic",
+      "DESC": "能够从宏观的角度看待问题，善于规划和布局。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage33": {
+      "CName": "回顾",
+      "EName": "Context",
+      "DESC": "喜欢追溯从前，通过思考过去来了解现状。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage34": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
       "Field": "Warmer",
       "fieldCName": "关系建立",
       "fieldEName": "Warmer",
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "advantage3": {
-      "CName": "体谅",
-      "EName": "Empathy",
-      "DESC": "能够设身处地地体会他人的感受。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage4": {
-      "CName": "适应",
-      "EName": "Adaptability",
-      "DESC": "拥抱变化，灵活应变。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage5": {
-      "CName": "公平",
-      "EName": "Consistency",
-      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "industry": "生物制药",
-    "position": "高级临床监查员",
-    "wxNickname": "Walter.Li",
-    "problem": "通过了解并强化自己的优势，帮助自己更好的认识我的优势与目前工作的匹配度，并在工作中更好发挥自己优势（原因：近期对目前的工作感到迷茫，提不起兴趣，工作任务拖沓）",
-    "want": "从不同方面更加了解自己，强化优势，增强自信；\n了解与目前工作的适配度，帮助自己在工作中更好发挥自己的优势；\n尝试是否可以深入做优势培训教练。"
+    "industry": "重庆/卫生领域",
+    "position": "工作人员"
   },
   {
     "name": "昝磊",
@@ -865,11 +882,58 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
+    "advantage30": {
+      "CName": "审慎",
+      "EName": "Deliberative",
+      "DESC": "每做一个决定或选择时均慎之又慎，会设想所有可能遇到的困难。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage31": {
+      "CName": "竞争",
+      "EName": "Competition",
+      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage32": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage33": {
+      "CName": "思维",
+      "EName": "Intellection",
+      "DESC": "喜欢思考，喜欢思想活动，喜欢锻炼大脑“肌肉”，把它们四面抻扯，这种对思想活动的需求有可能是专注的，专注的焦点取决于你的其他优势。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage34": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
     "industry": "天津/事业单位",
-    "position": "专技岗",
-    "wxNickname": "Laputa",
-    "problem": "目前在体制内干工作比较压抑，想要找到一个发展副业的方向。",
-    "want": "明确自己的优势，合理运用自己的优势，充实自己，发展副业"
+    "position": "专技岗"
   },
   {
     "name": "姚丽华",
@@ -974,11 +1038,58 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
+    "advantage30": {
+      "CName": "取悦",
+      "EName": "Woo",
+      "DESC": "喜欢结交新人并博取其欢心，能够在人际交往中打破沉默，与他人建立联系，并从中得到满足。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage31": {
+      "CName": "搜集",
+      "EName": "Input",
+      "DESC": "喜欢搜集和整理，可能会积累信息、观点、标志品，甚至是关系。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage32": {
+      "CName": "沟通",
+      "EName": "Communication",
+      "DESC": "热爱表达，妙笔生花，擅长沟通。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage33": {
+      "CName": "统率",
+      "EName": "Command",
+      "DESC": "天生的领袖，有大将风度，运筹帷幄，指挥若定。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage34": {
+      "CName": "竞争",
+      "EName": "Competition",
+      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
     "industry": "房地产（商业物业）",
-    "position": "销售",
-    "wxNickname": "Lisa Yao",
-    "problem": "在不自信、领导支持鼓励以及拼命三郎的状态下，将销售工作做到TOP，获得大部分人认可。架构及环境都变革后，继续做销售（留任或跳槽）还是内部转岗做运营（项目管理）？",
-    "want": "希望改变内耗、焦虑、不自信、行动力弱的缺点，能够认清自己的优势，在正确的方向发挥所长，然后可以有能力帮助其他人分析并做好优势管理。"
+    "position": "销售"
   },
   {
     "name": "张正",
@@ -1083,11 +1194,58 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
+    "advantage30": {
+      "CName": "纪律",
+      "EName": "Discipline",
+      "DESC": "维持秩序与效率，制定了时间表，就会按照计划行动，喜欢检查，看看物品是不是在该在的地方，如果不在，就会不舒服，不喜欢那些不遵守规则的人。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage31": {
+      "CName": "行动",
+      "EName": "Activator",
+      "DESC": "喜欢问“什么时候可以开始？”，认为没有行动，一切皆为空谈，惟有行动才能做事情，惟有行动才能出业绩。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage32": {
+      "CName": "伯乐",
+      "EName": "Developer",
+      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage33": {
+      "CName": "取悦",
+      "EName": "Woo",
+      "DESC": "喜欢结交新人并博取其欢心，能够在人际交往中打破沉默，与他人建立联系，并从中得到满足。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage34": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
     "industry": "外贸",
-    "position": "运营",
-    "wxNickname": "Austynzhang",
-    "problem": "识人和如何做工作培训",
-    "want": "知己识人"
+    "position": "运营"
   },
   {
     "name": "潘飞",
@@ -1192,96 +1350,27 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "industry": "IT 硬件厂商",
-    "position": "内部销售管理",
-    "wxNickname": "Faith",
-    "problem": "情绪管理，逻辑能力",
-    "want": "了解自己的优势和短板，并知道怎么发挥，了解他人并知道如何相处打交道"
-  },
-  {
-    "name": "柯",
-    "class": 4,
-    "advantage6": {
-      "CName": "竞争",
-      "EName": "Competition",
-      "DESC": "争强好胜，喜欢在竞争中获得成就。",
-      "Field": "Influencer",
-      "fieldCName": "影响力",
-      "fieldEName": "Influencer",
-      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
-      "color": "#F88825"
-    },
-    "advantage7": {
-      "CName": "关联",
-      "EName": "Connectedness",
-      "DESC": "深信世间万物都彼此关联，相信没有巧合，凡事必有成因。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage8": {
-      "CName": "个别",
-      "EName": "Individualization",
-      "DESC": "识别并尊重个体差异，喜欢观察不同人的习惯和喜好，经常会发现某个人和我认识的另外某个人“很像”，社交风格比较灵活，因为会看人下菜。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage9": {
-      "CName": "搜集",
-      "EName": "Input",
-      "DESC": "喜欢搜集和整理，可能会积累信息、观点、标志品，甚至是关系。",
+    "advantage30": {
+      "CName": "战略",
+      "EName": "Strategic",
+      "DESC": "能够从宏观的角度看待问题，善于规划和布局。",
       "Field": "Thinker",
       "fieldCName": "战略思维",
       "fieldEName": "Thinker",
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
-    "advantage10": {
-      "CName": "纪律",
-      "EName": "Discipline",
-      "DESC": "维持秩序与效率，制定了时间表，就会按照计划行动，喜欢检查，看看物品是不是在该在的地方，如果不在，就会不舒服，不喜欢那些不遵守规则的人。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
+    "advantage31": {
+      "CName": "前瞻",
+      "EName": "Futuristic",
+      "DESC": "对未来着迷，想到未来，就很激动/兴奋，如果有人跟你说过去怎样怎样，没一会儿就跑神了，但如果聊到未来如何如何，立刻就来劲了，关注行业动态，新动向能很快掌握。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
     },
-    "advantage1": {
-      "CName": "交往",
-      "EName": "Relator",
-      "DESC": "喜欢人际间的亲密关系，最大的满足是与朋友一道为实现一个目标而共同努力。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage2": {
-      "CName": "体谅",
-      "EName": "Empathy",
-      "DESC": "能够设身处地地体会他人的感受。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage3": {
-      "CName": "和谐",
-      "EName": "Harmony",
-      "DESC": "渴求协调一致，避免冲突，寻求共识。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage4": {
+    "advantage32": {
       "CName": "审慎",
       "EName": "Deliberative",
       "DESC": "每做一个决定或选择时均慎之又慎，会设想所有可能遇到的困难。",
@@ -1291,21 +1380,28 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
-    "advantage5": {
-      "CName": "思维",
-      "EName": "Intellection",
-      "DESC": "喜欢思考，喜欢思想活动，喜欢锻炼大脑“肌肉”，把它们四面抻扯，这种对思想活动的需求有可能是专注的，专注的焦点取决于你的其他优势。",
-      "Field": "Thinker",
-      "fieldCName": "战略思维",
-      "fieldEName": "Thinker",
-      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
-      "color": "#45B076"
+    "advantage33": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
     },
-    "industry": "待业",
-    "position": "待业",
-    "wxNickname": "柯",
-    "problem": "没有行动力执行力，拖延症，没有目标",
-    "want": "了解自己，找到自己的优势发挥出来，找到自己的目标"
+    "advantage34": {
+      "CName": "竞争",
+      "EName": "Competition",
+      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "industry": "IT 硬件厂商",
+    "position": "内部销售管理"
   },
   {
     "name": "王彤",
@@ -1410,11 +1506,58 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
+    "advantage30": {
+      "CName": "统率",
+      "EName": "Command",
+      "DESC": "天生的领袖，有大将风度，运筹帷幄，指挥若定。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage31": {
+      "CName": "自信",
+      "EName": "Self-Assurance",
+      "DESC": "对自己的能力和判断有绝对的信心，不轻易受他人影响。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage32": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage33": {
+      "CName": "竞争",
+      "EName": "Competition",
+      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage34": {
+      "CName": "适应",
+      "EName": "Adaptability",
+      "DESC": "拥抱变化，灵活应变。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
     "industry": "建筑施工",
-    "position": "技术岗",
-    "wxNickname": "创可贴",
-    "problem": "认识到自己，找到适合自己做的，把我机会，争取机会，打磨个别才干",
-    "want": "可以达到独立完成教练分析的任务，掌握34项才干"
+    "position": "技术岗"
   },
   {
     "name": "姚璐",
@@ -1519,120 +1662,58 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
+    "advantage30": {
+      "CName": "统率",
+      "EName": "Command",
+      "DESC": "天生的领袖，有大将风度，运筹帷幄，指挥若定。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage31": {
+      "CName": "纪律",
+      "EName": "Discipline",
+      "DESC": "维持秩序与效率，制定了时间表，就会按照计划行动，喜欢检查，看看物品是不是在该在的地方，如果不在，就会不舒服，不喜欢那些不遵守规则的人。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage32": {
+      "CName": "竞争",
+      "EName": "Competition",
+      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage33": {
+      "CName": "审慎",
+      "EName": "Deliberative",
+      "DESC": "每做一个决定或选择时均慎之又慎，会设想所有可能遇到的困难。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage34": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
     "industry": "人力资源服务",
-    "position": "业务部经理",
-    "wxNickname": "心路",
-    "problem": "达成公司下达的任务指标",
-    "want": "1、成为优势教练，并研究如何应用在自己现在的业务产品领域，想做成一个培训产品"
-  },
-  {
-    "name": "龙宇",
-    "class": 4,
-    "advantage6": {
-      "CName": "关联",
-      "EName": "Connectedness",
-      "DESC": "深信世间万物都彼此关联，相信没有巧合，凡事必有成因。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage7": {
-      "CName": "排难",
-      "EName": "Restorative",
-      "DESC": "是解决问题的行家里手，善于发现问题并解决问题。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage8": {
-      "CName": "信仰",
-      "EName": "Belief",
-      "DESC": "价值观大过天，对自己所信仰的事业非常忠诚。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage9": {
-      "CName": "伯乐",
-      "EName": "Developer",
-      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage10": {
-      "CName": "积极",
-      "EName": "Positivity",
-      "DESC": "浑身充满了富有感染力的热情，乐观向上，并能感召周围的人。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage1": {
-      "CName": "搜集",
-      "EName": "Input",
-      "DESC": "喜欢搜集和整理，可能会积累信息、观点、标志品，甚至是关系。",
-      "Field": "Thinker",
-      "fieldCName": "战略思维",
-      "fieldEName": "Thinker",
-      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
-      "color": "#45B076"
-    },
-    "advantage2": {
-      "CName": "体谅",
-      "EName": "Empathy",
-      "DESC": "能够设身处地地体会他人的感受。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage3": {
-      "CName": "个别",
-      "EName": "Individualization",
-      "DESC": "识别并尊重个体差异，喜欢观察不同人的习惯和喜好，经常会发现某个人和我认识的另外某个人“很像”，社交风格比较灵活，因为会看人下菜。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage4": {
-      "CName": "和谐",
-      "EName": "Harmony",
-      "DESC": "渴求协调一致，避免冲突，寻求共识。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage5": {
-      "CName": "适应",
-      "EName": "Adaptability",
-      "DESC": "拥抱变化，灵活应变。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "industry": "汽车",
-    "position": "工程师",
-    "wxNickname": "LY",
-    "problem": "提高工作效率，让自己具有无法替代的优势",
-    "want": "认知自己，为自己的工作事业赋能。"
+    "position": "业务部经理"
   },
   {
     "name": "孙齐月",
@@ -1688,16 +1769,6 @@
       "color": "#F88825"
     },
     "advantage1": {
-      "CName": "伯乐",
-      "EName": "Developer",
-      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage2": {
       "CName": "积极",
       "EName": "Positivity",
       "DESC": "浑身充满了富有感染力的热情，乐观向上，并能感召周围的人。",
@@ -1707,27 +1778,7 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "advantage3": {
-      "CName": "适应",
-      "EName": "Adaptability",
-      "DESC": "拥抱变化，灵活应变。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage4": {
-      "CName": "和谐",
-      "EName": "Harmony",
-      "DESC": "渴求协调一致，避免冲突，寻求共识。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage5": {
+    "advantage2": {
       "CName": "包容",
       "EName": "Includer",
       "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
@@ -1737,198 +1788,10 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "industry": "知识付费",
-    "position": "用户运营",
-    "wxNickname": "七月SUN",
-    "problem": "想要找到自己擅长（舒服）的工作方式",
-    "want": "想清楚自己喜欢/擅长的工作是什么样的"
-  },
-  {
-    "name": "龙丹丹",
-    "class": 4,
-    "advantage6": {
-      "CName": "排难",
-      "EName": "Restorative",
-      "DESC": "是解决问题的行家里手，善于发现问题并解决问题。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage7": {
-      "CName": "审慎",
-      "EName": "Deliberative",
-      "DESC": "每做一个决定或选择时均慎之又慎，会设想所有可能遇到的困难。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage8": {
-      "CName": "统筹",
-      "EName": "Arranger",
-      "DESC": "一个人也要像一支队伍，擅长组织和安排。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage9": {
-      "CName": "成就",
-      "EName": "Achiever",
-      "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage10": {
-      "CName": "积极",
-      "EName": "Positivity",
-      "DESC": "浑身充满了富有感染力的热情，乐观向上，并能感召周围的人。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage1": {
-      "CName": "分析",
-      "EName": "Analytical",
-      "DESC": "善于思考，勤于自省，敏于探讨，数据会告诉你一切。",
-      "Field": "Thinker",
-      "fieldCName": "战略思维",
-      "fieldEName": "Thinker",
-      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
-      "color": "#45B076"
-    },
-    "advantage2": {
-      "CName": "交往",
-      "EName": "Relator",
-      "DESC": "喜欢人际间的亲密关系，最大的满足是与朋友一道为实现一个目标而共同努力。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
     "advantage3": {
-      "CName": "个别",
-      "EName": "Individualization",
-      "DESC": "识别并尊重个体差异，喜欢观察不同人的习惯和喜好，经常会发现某个人和我认识的另外某个人“很像”，社交风格比较灵活，因为会看人下菜。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage4": {
       "CName": "伯乐",
       "EName": "Developer",
       "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage5": {
-      "CName": "纪律",
-      "EName": "Discipline",
-      "DESC": "维持秩序与效率，制定了时间表，就会按照计划行动，喜欢检查，看看物品是不是在该在的地方，如果不在，就会不舒服，不喜欢那些不遵守规则的人。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "industry": "泉州/珠宝零售",
-    "position": "区域经理",
-    "wxNickname": "龙丹丹",
-    "problem": "解决业绩提升问题，通过业绩提升明年薪资提升20%",
-    "want": "了解自己的才干，利用自己的长板做事，提升工作效率，并能识别团队他人才干。"
-  },
-  {
-    "name": "章文豪",
-    "class": 4,
-    "advantage6": {
-      "CName": "学习",
-      "EName": "Learner",
-      "DESC": "热爱学习，你最感兴趣的题目取决于你的其他主题和经历，但无论是什么题目，你总是受到学习过程的吸引，过程，而不是内容或结果，最使你兴奋。",
-      "Field": "Thinker",
-      "fieldCName": "战略思维",
-      "fieldEName": "Thinker",
-      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
-      "color": "#45B076"
-    },
-    "advantage7": {
-      "CName": "公平",
-      "EName": "Consistency",
-      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage8": {
-      "CName": "回顾",
-      "EName": "Context",
-      "DESC": "喜欢追溯从前，通过思考过去来了解现状。",
-      "Field": "Thinker",
-      "fieldCName": "战略思维",
-      "fieldEName": "Thinker",
-      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
-      "color": "#45B076"
-    },
-    "advantage9": {
-      "CName": "个别",
-      "EName": "Individualization",
-      "DESC": "识别并尊重个体差异，喜欢观察不同人的习惯和喜好，经常会发现某个人和我认识的另外某个人“很像”，社交风格比较灵活，因为会看人下菜。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage10": {
-      "CName": "信仰",
-      "EName": "Belief",
-      "DESC": "价值观大过天，对自己所信仰的事业非常忠诚。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage1": {
-      "CName": "排难",
-      "EName": "Restorative",
-      "DESC": "是解决问题的行家里手，善于发现问题并解决问题。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage2": {
-      "CName": "审慎",
-      "EName": "Deliberative",
-      "DESC": "每做一个决定或选择时均慎之又慎，会设想所有可能遇到的困难。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage3": {
-      "CName": "交往",
-      "EName": "Relator",
-      "DESC": "喜欢人际间的亲密关系，最大的满足是与朋友一道为实现一个目标而共同努力。",
       "Field": "Warmer",
       "fieldCName": "关系建立",
       "fieldEName": "Warmer",
@@ -1946,20 +1809,67 @@
       "color": "#2972F4"
     },
     "advantage5": {
-      "CName": "伯乐",
-      "EName": "Developer",
-      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
+      "CName": "适应",
+      "EName": "Adaptability",
+      "DESC": "拥抱变化，灵活应变。",
       "Field": "Warmer",
       "fieldCName": "关系建立",
       "fieldEName": "Warmer",
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "industry": "景区",
-    "position": "营地管理",
-    "wxNickname": "Hao",
-    "problem": "想换个岗位干一下",
-    "want": "了解自己的特质，找到自己的长处，发挥自己的价值"
+    "advantage30": {
+      "CName": "学习",
+      "EName": "Learner",
+      "DESC": "热爱学习，你最感兴趣的题目取决于你的其他主题和经历，但无论是什么题目，你总是受到学习过程的吸引，过程，而不是内容或结果，最使你兴奋。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage31": {
+      "CName": "纪律",
+      "EName": "Discipline",
+      "DESC": "维持秩序与效率，制定了时间表，就会按照计划行动，喜欢检查，看看物品是不是在该在的地方，如果不在，就会不舒服，不喜欢那些不遵守规则的人。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage32": {
+      "CName": "沟通",
+      "EName": "Communication",
+      "DESC": "热爱表达，妙笔生花，擅长沟通。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage33": {
+      "CName": "统率",
+      "EName": "Command",
+      "DESC": "天生的领袖，有大将风度，运筹帷幄，指挥若定。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage34": {
+      "CName": "排难",
+      "EName": "Restorative",
+      "DESC": "是解决问题的行家里手，善于发现问题并解决问题。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "industry": "杭州/知识付费",
+    "position": "用户运营"
   },
   {
     "name": "赵艳",
@@ -2064,26 +1974,63 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
+    "advantage30": {
+      "CName": "追求",
+      "EName": "Significance",
+      "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage31": {
+      "CName": "自信",
+      "EName": "Self-Assurance",
+      "DESC": "对自己的能力和判断有绝对的信心，不轻易受他人影响。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage32": {
+      "CName": "完美",
+      "EName": "Maximizer",
+      "DESC": "追求卓越，不断改进，做事有自己的标准，没有达到的话，就会很难受，在工作上对自己高要求，不是为了跟别人比，而是一种习惯。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage33": {
+      "CName": "适应",
+      "EName": "Adaptability",
+      "DESC": "拥抱变化，灵活应变。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage34": {
+      "CName": "统率",
+      "EName": "Command",
+      "DESC": "天生的领袖，有大将风度，运筹帷幄，指挥若定。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
     "industry": "公务员",
-    "position": "税务局业务科室",
-    "wxNickname": "辣椒尖",
-    "problem": "工作中不知道如何升职",
-    "want": "找到自己的优势，助力自己升职"
+    "position": "税务局业务科室"
   },
   {
     "name": "张明松",
     "class": 4,
     "advantage6": {
-      "CName": "信仰",
-      "EName": "Belief",
-      "DESC": "价值观大过天，对自己所信仰的事业非常忠诚。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage7": {
       "CName": "责任",
       "EName": "Responsibility",
       "DESC": "对自己的承诺非常认真，愿意承担责任并确保任务的完成。",
@@ -2093,30 +2040,40 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
+    "advantage7": {
+      "CName": "审慎",
+      "EName": "Deliberative",
+      "DESC": "每做一个决定或选择时均慎之又慎，会设想所有可能遇到的困难。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
     "advantage8": {
-      "CName": "交往",
-      "EName": "Relator",
-      "DESC": "喜欢人际间的亲密关系，最大的满足是与朋友一道为实现一个目标而共同努力。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
+      "CName": "前瞻",
+      "EName": "Futuristic",
+      "DESC": "对未来着迷，想到未来，就很激动/兴奋，如果有人跟你说过去怎样怎样，没一会儿就跑神了，但如果聊到未来如何如何，立刻就来劲了，关注行业动态，新动向能很快掌握。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
     },
     "advantage9": {
-      "CName": "关联",
-      "EName": "Connectedness",
-      "DESC": "深信世间万物都彼此关联，相信没有巧合，凡事必有成因。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
+      "CName": "完美",
+      "EName": "Maximizer",
+      "DESC": "追求卓越，不断改进，做事有自己的标准，没有达到的话，就会很难受，在工作上对自己高要求，不是为了跟别人比，而是一种习惯。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
     },
     "advantage10": {
-      "CName": "思维",
-      "EName": "Intellection",
-      "DESC": "喜欢思考，喜欢思想活动，喜欢锻炼大脑“肌肉”，把它们四面抻扯，这种对思想活动的需求有可能是专注的，专注的焦点取决于你的其他优势。",
+      "CName": "回顾",
+      "EName": "Context",
+      "DESC": "喜欢追溯从前，通过思考过去来了解现状。",
       "Field": "Thinker",
       "fieldCName": "战略思维",
       "fieldEName": "Thinker",
@@ -2173,11 +2130,58 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
+    "advantage30": {
+      "CName": "成就",
+      "EName": "Achiever",
+      "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage31": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage32": {
+      "CName": "适应",
+      "EName": "Adaptability",
+      "DESC": "拥抱变化，灵活应变。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage33": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage34": {
+      "CName": "追求",
+      "EName": "Significance",
+      "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
     "industry": "保险/金融；咖啡/餐饮",
-    "position": "保险/业务员；咖啡/投资人",
-    "wxNickname": "Johnson",
-    "problem": "1.组建自己的工作团队",
-    "want": "学会想人提出自己的利益需求"
+    "position": "保险/业务员；咖啡/投资人"
   },
   {
     "name": "吴必森",
@@ -2282,11 +2286,58 @@
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
+    "advantage30": {
+      "CName": "伯乐",
+      "EName": "Developer",
+      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage31": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage32": {
+      "CName": "适应",
+      "EName": "Adaptability",
+      "DESC": "拥抱变化，灵活应变。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage33": {
+      "CName": "回顾",
+      "EName": "Context",
+      "DESC": "喜欢追溯从前，通过思考过去来了解现状。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage34": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
     "industry": "宁波/教培行业",
-    "position": "高中英语老师",
-    "wxNickname": "英语吴老师",
-    "problem": "能专注于自己的事情，不过度在意他人",
-    "want": "认识自己的优势，发挥自己的优势"
+    "position": "高中英语老师"
   },
   {
     "name": "田也",
@@ -2391,11 +2442,58 @@
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
+    "advantage30": {
+      "CName": "理念",
+      "EName": "Ideation",
+      "DESC": "痴迷于各种奇思妙想，能够从看似毫无关联的现象中找到彼此之间的联系。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage31": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage32": {
+      "CName": "战略",
+      "EName": "Strategic",
+      "DESC": "能够从宏观的角度看待问题，善于规划和布局。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage33": {
+      "CName": "成就",
+      "EName": "Achiever",
+      "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage34": {
+      "CName": "统筹",
+      "EName": "Arranger",
+      "DESC": "一个人也要像一支队伍，擅长组织和安排。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
     "industry": "天津/制造业（做服务器）",
-    "position": "项目管理",
-    "wxNickname": "Thea",
-    "problem": "职业选择问题。\n我在富士康做项目管理2年+，目前很想换工作，在寻找我擅长和喜欢的工作岗位。目前这份工作很少让我有成就感，一般都是按照流程去push别人完成工作。而且大多数时间不是很忙，时间就荒废了。所以我想要换一份自己喜欢、更擅长，且更能积累能力的工作。我看了看自己的简历，除了有一些沟通能力的锻炼，没有拿到什么结果，为自己的未来感到担忧，觉得应该换工作，但没有方向，又不确定是否有能力去换下一份工作。",
-    "want": "首先，希望更能了解自己，接受自己，发挥自己的优势，并确立下一份工作岗位方向。其次，希望通过盖洛普教练班的学习，对人的把握更准。最后，交到可以互帮互助的同频的鹏友。"
+    "position": "项目管理"
   },
   {
     "name": "李慧俊",
@@ -2500,11 +2598,58 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
+    "advantage30": {
+      "CName": "回顾",
+      "EName": "Context",
+      "DESC": "喜欢追溯从前，通过思考过去来了解现状。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage31": {
+      "CName": "排难",
+      "EName": "Restorative",
+      "DESC": "是解决问题的行家里手，善于发现问题并解决问题。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage32": {
+      "CName": "体谅",
+      "EName": "Empathy",
+      "DESC": "能够设身处地地体会他人的感受。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage33": {
+      "CName": "适应",
+      "EName": "Adaptability",
+      "DESC": "拥抱变化，灵活应变。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage34": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
     "industry": "少儿武术培训",
-    "position": "校长",
-    "wxNickname": "松雨武术-李慧俊",
-    "problem": "Ai自习室，创办",
-    "want": "更好与新的伙伴，共事，更好的规划自习室的学员成长路径"
+    "position": "校长"
   },
   {
     "name": "陈梅",
@@ -2609,56 +2754,7 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "industry": "大连/医疗\n护理专业",
-    "position": "护士长",
-    "wxNickname": "树",
-    "problem": "学习如何发挥自己的优势和发掘其他人的优势，并能在自己能力范围内去帮助对方成长",
-    "want": "识别优势并发挥优势的能力"
-  },
-  {
-    "name": "周泳",
-    "class": 4,
-    "advantage6": {
-      "CName": "和谐",
-      "EName": "Harmony",
-      "DESC": "渴求协调一致，避免冲突，寻求共识。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage7": {
-      "CName": "审慎",
-      "EName": "Deliberative",
-      "DESC": "每做一个决定或选择时均慎之又慎，会设想所有可能遇到的困难。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage8": {
-      "CName": "战略",
-      "EName": "Strategic",
-      "DESC": "能够从宏观的角度看待问题，善于规划和布局。",
-      "Field": "Thinker",
-      "fieldCName": "战略思维",
-      "fieldEName": "Thinker",
-      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
-      "color": "#45B076"
-    },
-    "advantage9": {
-      "CName": "责任",
-      "EName": "Responsibility",
-      "DESC": "对自己的承诺非常认真，愿意承担责任并确保任务的完成。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage10": {
+    "advantage30": {
       "CName": "沟通",
       "EName": "Communication",
       "DESC": "热爱表达，妙笔生花，擅长沟通。",
@@ -2668,61 +2764,48 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "advantage1": {
-      "CName": "交往",
-      "EName": "Relator",
-      "DESC": "喜欢人际间的亲密关系，最大的满足是与朋友一道为实现一个目标而共同努力。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage2": {
-      "CName": "体谅",
-      "EName": "Empathy",
-      "DESC": "能够设身处地地体会他人的感受。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage3": {
-      "CName": "适应",
-      "EName": "Adaptability",
-      "DESC": "拥抱变化，灵活应变。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage4": {
-      "CName": "伯乐",
-      "EName": "Developer",
-      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage5": {
-      "CName": "公平",
-      "EName": "Consistency",
-      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+    "advantage31": {
+      "CName": "纪律",
+      "EName": "Discipline",
+      "DESC": "维持秩序与效率，制定了时间表，就会按照计划行动，喜欢检查，看看物品是不是在该在的地方，如果不在，就会不舒服，不喜欢那些不遵守规则的人。",
       "Field": "Doer",
       "fieldCName": "执行力",
       "fieldEName": "Doer",
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
-    "industry": "公安系统",
-    "position": "基层所队治安岗",
-    "wxNickname": "小米周",
-    "problem": "协调警组工作开展，向领导做好工作汇报",
-    "want": "希望通过优势初级班课程，发现自己的优势并将优势发挥出来，运用到工作和生活中，解决实际得问题"
+    "advantage32": {
+      "CName": "回顾",
+      "EName": "Context",
+      "DESC": "喜欢追溯从前，通过思考过去来了解现状。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage33": {
+      "CName": "竞争",
+      "EName": "Competition",
+      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage34": {
+      "CName": "战略",
+      "EName": "Strategic",
+      "DESC": "能够从宏观的角度看待问题，善于规划和布局。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "industry": "大连/医疗\n护理专业",
+    "position": "护士长"
   },
   {
     "name": "汪威",
@@ -2788,16 +2871,6 @@
       "color": "#45B076"
     },
     "advantage2": {
-      "CName": "交往",
-      "EName": "Relator",
-      "DESC": "喜欢人际间的亲密关系，最大的满足是与朋友一道为实现一个目标而共同努力。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage3": {
       "CName": "搜集",
       "EName": "Input",
       "DESC": "喜欢搜集和整理，可能会积累信息、观点、标志品，甚至是关系。",
@@ -2807,7 +2880,7 @@
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
-    "advantage4": {
+    "advantage3": {
       "CName": "完美",
       "EName": "Maximizer",
       "DESC": "追求卓越，不断改进，做事有自己的标准，没有达到的话，就会很难受，在工作上对自己高要求，不是为了跟别人比，而是一种习惯。",
@@ -2817,7 +2890,7 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "advantage5": {
+    "advantage4": {
       "CName": "理念",
       "EName": "Ideation",
       "DESC": "痴迷于各种奇思妙想，能够从看似毫无关联的现象中找到彼此之间的联系。",
@@ -2827,11 +2900,68 @@
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
+    "advantage5": {
+      "CName": "交往",
+      "EName": "Relator",
+      "DESC": "喜欢人际间的亲密关系，最大的满足是与朋友一道为实现一个目标而共同努力。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage30": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage31": {
+      "CName": "回顾",
+      "EName": "Context",
+      "DESC": "喜欢追溯从前，通过思考过去来了解现状。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage32": {
+      "CName": "分析",
+      "EName": "Analytical",
+      "DESC": "善于思考，勤于自省，敏于探讨，数据会告诉你一切。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage33": {
+      "CName": "纪律",
+      "EName": "Discipline",
+      "DESC": "维持秩序与效率，制定了时间表，就会按照计划行动，喜欢检查，看看物品是不是在该在的地方，如果不在，就会不舒服，不喜欢那些不遵守规则的人。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage34": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
     "industry": "银行",
-    "position": "综合柜员",
-    "wxNickname": "汪威",
-    "problem": "提高工作效率，行动执行力",
-    "want": "找到适合自己的可持续发展道路"
+    "position": "综合柜员"
   },
   {
     "name": "吴双",
@@ -2936,11 +3066,58 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
+    "advantage30": {
+      "CName": "学习",
+      "EName": "Learner",
+      "DESC": "热爱学习，你最感兴趣的题目取决于你的其他主题和经历，但无论是什么题目，你总是受到学习过程的吸引，过程，而不是内容或结果，最使你兴奋。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage31": {
+      "CName": "理念",
+      "EName": "Ideation",
+      "DESC": "痴迷于各种奇思妙想，能够从看似毫无关联的现象中找到彼此之间的联系。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage32": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage33": {
+      "CName": "排难",
+      "EName": "Restorative",
+      "DESC": "是解决问题的行家里手，善于发现问题并解决问题。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage34": {
+      "CName": "战略",
+      "EName": "Strategic",
+      "DESC": "能够从宏观的角度看待问题，善于规划和布局。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
     "industry": "深圳/电梯",
-    "position": "销售",
-    "wxNickname": "小双双",
-    "problem": "根据自己的优势去分划自己的工作任务。在工作中能，够放大自己优势的工作内容，我将投入更多时间去做",
-    "want": "认识自己，识别他人，不内耗"
+    "position": "销售"
   },
   {
     "name": "李建宇",
@@ -3045,120 +3222,58 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "industry": "工作6年，前5年在建筑行业央企做施工技术；目前跳转至水利行业国企做财务、投融资",
-    "position": "财务资产管理岗",
-    "wxNickname": "好奇",
-    "problem": "厘清工作目标。目前所在企业属于垄断资源型企业，无经营压力，升职路径不明确，同时我属于技术转财务。工作目标放在提升财务工作能力，还是拓展人际关系，或者是做副业，对这个问题暂时没有清晰的思考。",
-    "want": "了解自己的优势并学会应用发挥优势，放弃不能发挥自我优势的事情对个人时间的占用。学会帮助他人识别优势，给他人创造价值"
-  },
-  {
-    "name": "张彪",
-    "class": 4,
-    "advantage6": {
-      "CName": "审慎",
-      "EName": "Deliberative",
-      "DESC": "每做一个决定或选择时均慎之又慎，会设想所有可能遇到的困难。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
+    "advantage30": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
     },
-    "advantage7": {
-      "CName": "信仰",
-      "EName": "Belief",
-      "DESC": "价值观大过天，对自己所信仰的事业非常忠诚。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
-    },
-    "advantage8": {
-      "CName": "竞争",
-      "EName": "Competition",
-      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+    "advantage31": {
+      "CName": "追求",
+      "EName": "Significance",
+      "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
       "Field": "Influencer",
       "fieldCName": "影响力",
       "fieldEName": "Influencer",
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "advantage9": {
-      "CName": "思维",
-      "EName": "Intellection",
-      "DESC": "喜欢思考，喜欢思想活动，喜欢锻炼大脑“肌肉”，把它们四面抻扯，这种对思想活动的需求有可能是专注的，专注的焦点取决于你的其他优势。",
-      "Field": "Thinker",
-      "fieldCName": "战略思维",
-      "fieldEName": "Thinker",
-      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
-      "color": "#45B076"
+    "advantage32": {
+      "CName": "取悦",
+      "EName": "Woo",
+      "DESC": "喜欢结交新人并博取其欢心，能够在人际交往中打破沉默，与他人建立联系，并从中得到满足。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
     },
-    "advantage10": {
-      "CName": "体谅",
-      "EName": "Empathy",
-      "DESC": "能够设身处地地体会他人的感受。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
+    "advantage33": {
+      "CName": "沟通",
+      "EName": "Communication",
+      "DESC": "热爱表达，妙笔生花，擅长沟通。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
     },
-    "advantage1": {
-      "CName": "伯乐",
-      "EName": "Developer",
-      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
+    "advantage34": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
     },
-    "advantage2": {
-      "CName": "关联",
-      "EName": "Connectedness",
-      "DESC": "深信世间万物都彼此关联，相信没有巧合，凡事必有成因。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "advantage3": {
-      "CName": "前瞻",
-      "EName": "Futuristic",
-      "DESC": "对未来着迷，想到未来，就很激动/兴奋，如果有人跟你说过去怎样怎样，没一会儿就跑神了，但如果聊到未来如何如何，立刻就来劲了，关注行业动态，新动向能很快掌握。",
-      "Field": "Thinker",
-      "fieldCName": "战略思维",
-      "fieldEName": "Thinker",
-      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
-      "color": "#45B076"
-    },
-    "advantage4": {
-      "CName": "学习",
-      "EName": "Learner",
-      "DESC": "热爱学习，你最感兴趣的题目取决于你的其他主题和经历，但无论是什么题目，你总是受到学习过程的吸引，过程，而不是内容或结果，最使你兴奋。",
-      "Field": "Thinker",
-      "fieldCName": "战略思维",
-      "fieldEName": "Thinker",
-      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
-      "color": "#45B076"
-    },
-    "advantage5": {
-      "CName": "和谐",
-      "EName": "Harmony",
-      "DESC": "渴求协调一致，避免冲突，寻求共识。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
-    },
-    "industry": "教育",
-    "position": "一线",
-    "wxNickname": "歌凯",
-    "problem": "找对象",
-    "want": "认识自己 认识别人"
+    "industry": "太原/工作6年，前5年在建筑行业央企做施工技术；目前跳转至水利行业国企做财务、投融资",
+    "position": "财务资产管理岗"
   },
   {
     "name": "高艳春",
@@ -3263,11 +3378,58 @@
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
+    "advantage30": {
+      "CName": "排难",
+      "EName": "Restorative",
+      "DESC": "是解决问题的行家里手，善于发现问题并解决问题。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage31": {
+      "CName": "和谐",
+      "EName": "Harmony",
+      "DESC": "渴求协调一致，避免冲突，寻求共识。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage32": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage33": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage34": {
+      "CName": "前瞻",
+      "EName": "Futuristic",
+      "DESC": "对未来着迷，想到未来，就很激动/兴奋，如果有人跟你说过去怎样怎样，没一会儿就跑神了，但如果聊到未来如何如何，立刻就来劲了，关注行业动态，新动向能很快掌握。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
     "industry": "广州/医疗",
-    "position": "护士",
-    "wxNickname": "Spring",
-    "problem": "提升能力",
-    "want": "更加了解自己的优势"
+    "position": "护士"
   },
   {
     "name": "陈冠峰",
@@ -3372,11 +3534,58 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
+    "advantage30": {
+      "CName": "统率",
+      "EName": "Command",
+      "DESC": "天生的领袖，有大将风度，运筹帷幄，指挥若定。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage31": {
+      "CName": "行动",
+      "EName": "Activator",
+      "DESC": "喜欢问“什么时候可以开始？”，认为没有行动，一切皆为空谈，惟有行动才能做事情，惟有行动才能出业绩。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage32": {
+      "CName": "沟通",
+      "EName": "Communication",
+      "DESC": "热爱表达，妙笔生花，擅长沟通。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage33": {
+      "CName": "完美",
+      "EName": "Maximizer",
+      "DESC": "追求卓越，不断改进，做事有自己的标准，没有达到的话，就会很难受，在工作上对自己高要求，不是为了跟别人比，而是一种习惯。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage34": {
+      "CName": "回顾",
+      "EName": "Context",
+      "DESC": "喜欢追溯从前，通过思考过去来了解现状。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
     "industry": "上海/新能源汽车",
-    "position": "嵌入式软件研发",
-    "wxNickname": "陈冠峰",
-    "problem": "突破35岁危机，在40+的时候能够产生价值和有稳定收入。",
-    "want": "认知自己的优势，学会利用自己的优势，帮助他人认识和利用自己的优势。"
+    "position": "嵌入式软件研发"
   },
   {
     "name": "胡凯程",
@@ -3481,44 +3690,91 @@
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
-    "industry": "成都/IT、体验设计",
-    "position": "UX设计师",
-    "wxNickname": "KC",
-    "problem": "行动力不够、情绪内耗，知道事情很重要，就是迟迟不开始、把战线拉长，而且容易把事情做复杂。",
-    "want": "学会正确看待自己的优势、用好优势，做起事情来不费心力。"
-  },
-  {
-    "name": "刘雅",
-    "class": 4,
-    "advantage6": {
-      "CName": "思维",
-      "EName": "Intellection",
-      "DESC": "喜欢思考，喜欢思想活动，喜欢锻炼大脑“肌肉”，把它们四面抻扯，这种对思想活动的需求有可能是专注的，专注的焦点取决于你的其他优势。",
-      "Field": "Thinker",
-      "fieldCName": "战略思维",
-      "fieldEName": "Thinker",
-      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
-      "color": "#45B076"
+    "advantage30": {
+      "CName": "成就",
+      "EName": "Achiever",
+      "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
     },
-    "advantage7": {
-      "CName": "体谅",
-      "EName": "Empathy",
-      "DESC": "能够设身处地地体会他人的感受。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
+    "advantage31": {
+      "CName": "统筹",
+      "EName": "Arranger",
+      "DESC": "一个人也要像一支队伍，擅长组织和安排。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
     },
-    "advantage8": {
-      "CName": "沟通",
-      "EName": "Communication",
-      "DESC": "热爱表达，妙笔生花，擅长沟通。",
+    "advantage32": {
+      "CName": "行动",
+      "EName": "Activator",
+      "DESC": "喜欢问“什么时候可以开始？”，认为没有行动，一切皆为空谈，惟有行动才能做事情，惟有行动才能出业绩。",
       "Field": "Influencer",
       "fieldCName": "影响力",
       "fieldEName": "Influencer",
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
+    },
+    "advantage33": {
+      "CName": "专注",
+      "EName": "Focus",
+      "DESC": "能够集中精力在自己的目标上，排除干扰，持续推进直至完成。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage34": {
+      "CName": "统率",
+      "EName": "Command",
+      "DESC": "天生的领袖，有大将风度，运筹帷幄，指挥若定。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "industry": "成都/IT、体验设计",
+    "position": "UX设计师"
+  },
+  {
+    "name": "龙丹丹",
+    "class": 4,
+    "advantage6": {
+      "CName": "排难",
+      "EName": "Restorative",
+      "DESC": "是解决问题的行家里手，善于发现问题并解决问题。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage7": {
+      "CName": "统筹",
+      "EName": "Arranger",
+      "DESC": "一个人也要像一支队伍，擅长组织和安排。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage8": {
+      "CName": "积极",
+      "EName": "Positivity",
+      "DESC": "浑身充满了富有感染力的热情，乐观向上，并能感召周围的人。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
     },
     "advantage9": {
       "CName": "审慎",
@@ -3531,6 +3787,786 @@
       "color": "#9A38D7"
     },
     "advantage10": {
+      "CName": "成就",
+      "EName": "Achiever",
+      "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage1": {
+      "CName": "分析",
+      "EName": "Analytical",
+      "DESC": "善于思考，勤于自省，敏于探讨，数据会告诉你一切。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage2": {
+      "CName": "交往",
+      "EName": "Relator",
+      "DESC": "喜欢人际间的亲密关系，最大的满足是与朋友一道为实现一个目标而共同努力。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage3": {
+      "CName": "伯乐",
+      "EName": "Developer",
+      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage4": {
+      "CName": "个别",
+      "EName": "Individualization",
+      "DESC": "识别并尊重个体差异，喜欢观察不同人的习惯和喜好，经常会发现某个人和我认识的另外某个人“很像”，社交风格比较灵活，因为会看人下菜。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage5": {
+      "CName": "纪律",
+      "EName": "Discipline",
+      "DESC": "维持秩序与效率，制定了时间表，就会按照计划行动，喜欢检查，看看物品是不是在该在的地方，如果不在，就会不舒服，不喜欢那些不遵守规则的人。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage30": {
+      "CName": "搜集",
+      "EName": "Input",
+      "DESC": "喜欢搜集和整理，可能会积累信息、观点、标志品，甚至是关系。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage31": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage32": {
+      "CName": "思维",
+      "EName": "Intellection",
+      "DESC": "喜欢思考，喜欢思想活动，喜欢锻炼大脑“肌肉”，把它们四面抻扯，这种对思想活动的需求有可能是专注的，专注的焦点取决于你的其他优势。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage33": {
+      "CName": "战略",
+      "EName": "Strategic",
+      "DESC": "能够从宏观的角度看待问题，善于规划和布局。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage34": {
+      "CName": "前瞻",
+      "EName": "Futuristic",
+      "DESC": "对未来着迷，想到未来，就很激动/兴奋，如果有人跟你说过去怎样怎样，没一会儿就跑神了，但如果聊到未来如何如何，立刻就来劲了，关注行业动态，新动向能很快掌握。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "industry": "珠宝零售",
+    "position": "区域经理"
+  },
+  {
+    "name": "龙宇",
+    "class": 4,
+    "advantage6": {
+      "CName": "关联",
+      "EName": "Connectedness",
+      "DESC": "深信世间万物都彼此关联，相信没有巧合，凡事必有成因。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage7": {
+      "CName": "排难",
+      "EName": "Restorative",
+      "DESC": "是解决问题的行家里手，善于发现问题并解决问题。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage8": {
+      "CName": "信仰",
+      "EName": "Belief",
+      "DESC": "价值观大过天，对自己所信仰的事业非常忠诚。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage9": {
+      "CName": "伯乐",
+      "EName": "Developer",
+      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage10": {
+      "CName": "积极",
+      "EName": "Positivity",
+      "DESC": "浑身充满了富有感染力的热情，乐观向上，并能感召周围的人。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage1": {
+      "CName": "搜集",
+      "EName": "Input",
+      "DESC": "喜欢搜集和整理，可能会积累信息、观点、标志品，甚至是关系。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage2": {
+      "CName": "体谅",
+      "EName": "Empathy",
+      "DESC": "能够设身处地地体会他人的感受。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage3": {
+      "CName": "个别",
+      "EName": "Individualization",
+      "DESC": "识别并尊重个体差异，喜欢观察不同人的习惯和喜好，经常会发现某个人和我认识的另外某个人“很像”，社交风格比较灵活，因为会看人下菜。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage4": {
+      "CName": "和谐",
+      "EName": "Harmony",
+      "DESC": "渴求协调一致，避免冲突，寻求共识。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage5": {
+      "CName": "适应",
+      "EName": "Adaptability",
+      "DESC": "拥抱变化，灵活应变。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage30": {
+      "CName": "竞争",
+      "EName": "Competition",
+      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage31": {
+      "CName": "纪律",
+      "EName": "Discipline",
+      "DESC": "维持秩序与效率，制定了时间表，就会按照计划行动，喜欢检查，看看物品是不是在该在的地方，如果不在，就会不舒服，不喜欢那些不遵守规则的人。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage32": {
+      "CName": "取悦",
+      "EName": "Woo",
+      "DESC": "喜欢结交新人并博取其欢心，能够在人际交往中打破沉默，与他人建立联系，并从中得到满足。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage33": {
+      "CName": "统率",
+      "EName": "Command",
+      "DESC": "天生的领袖，有大将风度，运筹帷幄，指挥若定。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage34": {
+      "CName": "回顾",
+      "EName": "Context",
+      "DESC": "喜欢追溯从前，通过思考过去来了解现状。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "industry": "汽车",
+    "position": "工程师"
+  },
+  {
+    "name": "张彪",
+    "class": 4,
+    "advantage6": {
+      "CName": "审慎",
+      "EName": "Deliberative",
+      "DESC": "每做一个决定或选择时均慎之又慎，会设想所有可能遇到的困难。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage7": {
+      "CName": "信仰",
+      "EName": "Belief",
+      "DESC": "价值观大过天，对自己所信仰的事业非常忠诚。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage8": {
+      "CName": "竞争",
+      "EName": "Competition",
+      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage9": {
+      "CName": "思维",
+      "EName": "Intellection",
+      "DESC": "喜欢思考，喜欢思想活动，喜欢锻炼大脑“肌肉”，把它们四面抻扯，这种对思想活动的需求有可能是专注的，专注的焦点取决于你的其他优势。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage10": {
+      "CName": "体谅",
+      "EName": "Empathy",
+      "DESC": "能够设身处地地体会他人的感受。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage1": {
+      "CName": "伯乐",
+      "EName": "Developer",
+      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage2": {
+      "CName": "关联",
+      "EName": "Connectedness",
+      "DESC": "深信世间万物都彼此关联，相信没有巧合，凡事必有成因。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage3": {
+      "CName": "前瞻",
+      "EName": "Futuristic",
+      "DESC": "对未来着迷，想到未来，就很激动/兴奋，如果有人跟你说过去怎样怎样，没一会儿就跑神了，但如果聊到未来如何如何，立刻就来劲了，关注行业动态，新动向能很快掌握。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage4": {
+      "CName": "学习",
+      "EName": "Learner",
+      "DESC": "热爱学习，你最感兴趣的题目取决于你的其他主题和经历，但无论是什么题目，你总是受到学习过程的吸引，过程，而不是内容或结果，最使你兴奋。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage5": {
+      "CName": "和谐",
+      "EName": "Harmony",
+      "DESC": "渴求协调一致，避免冲突，寻求共识。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage30": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage31": {
+      "CName": "追求",
+      "EName": "Significance",
+      "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage32": {
+      "CName": "纪律",
+      "EName": "Discipline",
+      "DESC": "维持秩序与效率，制定了时间表，就会按照计划行动，喜欢检查，看看物品是不是在该在的地方，如果不在，就会不舒服，不喜欢那些不遵守规则的人。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage33": {
+      "CName": "分析",
+      "EName": "Analytical",
+      "DESC": "善于思考，勤于自省，敏于探讨，数据会告诉你一切。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage34": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "industry": "教育",
+    "position": "一线"
+  },
+  {
+    "name": "周泳",
+    "class": 4,
+    "advantage6": {
+      "CName": "和谐",
+      "EName": "Harmony",
+      "DESC": "渴求协调一致，避免冲突，寻求共识。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage7": {
+      "CName": "审慎",
+      "EName": "Deliberative",
+      "DESC": "每做一个决定或选择时均慎之又慎，会设想所有可能遇到的困难。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage8": {
+      "CName": "战略",
+      "EName": "Strategic",
+      "DESC": "能够从宏观的角度看待问题，善于规划和布局。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage9": {
+      "CName": "责任",
+      "EName": "Responsibility",
+      "DESC": "对自己的承诺非常认真，愿意承担责任并确保任务的完成。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage10": {
+      "CName": "沟通",
+      "EName": "Communication",
+      "DESC": "热爱表达，妙笔生花，擅长沟通。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage1": {
+      "CName": "交往",
+      "EName": "Relator",
+      "DESC": "喜欢人际间的亲密关系，最大的满足是与朋友一道为实现一个目标而共同努力。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage2": {
+      "CName": "体谅",
+      "EName": "Empathy",
+      "DESC": "能够设身处地地体会他人的感受。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage3": {
+      "CName": "适应",
+      "EName": "Adaptability",
+      "DESC": "拥抱变化，灵活应变。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage4": {
+      "CName": "伯乐",
+      "EName": "Developer",
+      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage5": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage30": {
+      "CName": "统筹",
+      "EName": "Arranger",
+      "DESC": "一个人也要像一支队伍，擅长组织和安排。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage31": {
+      "CName": "竞争",
+      "EName": "Competition",
+      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage32": {
+      "CName": "专注",
+      "EName": "Focus",
+      "DESC": "能够集中精力在自己的目标上，排除干扰，持续推进直至完成。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage33": {
+      "CName": "统率",
+      "EName": "Command",
+      "DESC": "天生的领袖，有大将风度，运筹帷幄，指挥若定。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage34": {
+      "CName": "成就",
+      "EName": "Achiever",
+      "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "industry": "桂林/公安系统",
+    "position": "基层所队治安岗"
+  },
+  {
+    "name": "柯",
+    "class": 4,
+    "advantage6": {
+      "CName": "竞争",
+      "EName": "Competition",
+      "DESC": "争强好胜，喜欢在竞争中获得成就。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage7": {
+      "CName": "关联",
+      "EName": "Connectedness",
+      "DESC": "深信世间万物都彼此关联，相信没有巧合，凡事必有成因。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage8": {
+      "CName": "个别",
+      "EName": "Individualization",
+      "DESC": "识别并尊重个体差异，喜欢观察不同人的习惯和喜好，经常会发现某个人和我认识的另外某个人“很像”，社交风格比较灵活，因为会看人下菜。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage9": {
+      "CName": "搜集",
+      "EName": "Input",
+      "DESC": "喜欢搜集和整理，可能会积累信息、观点、标志品，甚至是关系。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage10": {
+      "CName": "纪律",
+      "EName": "Discipline",
+      "DESC": "维持秩序与效率，制定了时间表，就会按照计划行动，喜欢检查，看看物品是不是在该在的地方，如果不在，就会不舒服，不喜欢那些不遵守规则的人。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage1": {
+      "CName": "交往",
+      "EName": "Relator",
+      "DESC": "喜欢人际间的亲密关系，最大的满足是与朋友一道为实现一个目标而共同努力。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage2": {
+      "CName": "审慎",
+      "EName": "Deliberative",
+      "DESC": "每做一个决定或选择时均慎之又慎，会设想所有可能遇到的困难。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage3": {
+      "CName": "和谐",
+      "EName": "Harmony",
+      "DESC": "渴求协调一致，避免冲突，寻求共识。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage4": {
+      "CName": "体谅",
+      "EName": "Empathy",
+      "DESC": "能够设身处地地体会他人的感受。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage5": {
+      "CName": "思维",
+      "EName": "Intellection",
+      "DESC": "喜欢思考，喜欢思想活动，喜欢锻炼大脑“肌肉”，把它们四面抻扯，这种对思想活动的需求有可能是专注的，专注的焦点取决于你的其他优势。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage30": {
+      "CName": "积极",
+      "EName": "Positivity",
+      "DESC": "浑身充满了富有感染力的热情，乐观向上，并能感召周围的人。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage31": {
+      "CName": "沟通",
+      "EName": "Communication",
+      "DESC": "热爱表达，妙笔生花，擅长沟通。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage32": {
+      "CName": "自信",
+      "EName": "Self-Assurance",
+      "DESC": "对自己的能力和判断有绝对的信心，不轻易受他人影响。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage33": {
+      "CName": "成就",
+      "EName": "Achiever",
+      "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage34": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "industry": "待业",
+    "position": "待业"
+  },
+  {
+    "name": "章文豪",
+    "class": 4,
+    "advantage6": {
+      "CName": "学习",
+      "EName": "Learner",
+      "DESC": "热爱学习，你最感兴趣的题目取决于你的其他主题和经历，但无论是什么题目，你总是受到学习过程的吸引，过程，而不是内容或结果，最使你兴奋。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage7": {
+      "CName": "公平",
+      "EName": "Consistency",
+      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
+    },
+    "advantage8": {
+      "CName": "回顾",
+      "EName": "Context",
+      "DESC": "喜欢追溯从前，通过思考过去来了解现状。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage9": {
+      "CName": "个别",
+      "EName": "Individualization",
+      "DESC": "识别并尊重个体差异，喜欢观察不同人的习惯和喜好，经常会发现某个人和我认识的另外某个人“很像”，社交风格比较灵活，因为会看人下菜。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage10": {
       "CName": "信仰",
       "EName": "Belief",
       "DESC": "价值观大过天，对自己所信仰的事业非常忠诚。",
@@ -3541,24 +4577,24 @@
       "color": "#9A38D7"
     },
     "advantage1": {
-      "CName": "学习",
-      "EName": "Learner",
-      "DESC": "热爱学习，你最感兴趣的题目取决于你的其他主题和经历，但无论是什么题目，你总是受到学习过程的吸引，过程，而不是内容或结果，最使你兴奋。",
-      "Field": "Thinker",
-      "fieldCName": "战略思维",
-      "fieldEName": "Thinker",
-      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
-      "color": "#45B076"
+      "CName": "排难",
+      "EName": "Restorative",
+      "DESC": "是解决问题的行家里手，善于发现问题并解决问题。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
     },
     "advantage2": {
-      "CName": "和谐",
-      "EName": "Harmony",
-      "DESC": "渴求协调一致，避免冲突，寻求共识。",
-      "Field": "Warmer",
-      "fieldCName": "关系建立",
-      "fieldEName": "Warmer",
-      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
-      "color": "#2972F4"
+      "CName": "审慎",
+      "EName": "Deliberative",
+      "DESC": "每做一个决定或选择时均慎之又慎，会设想所有可能遇到的困难。",
+      "Field": "Doer",
+      "fieldCName": "执行力",
+      "fieldEName": "Doer",
+      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
+      "color": "#9A38D7"
     },
     "advantage3": {
       "CName": "交往",
@@ -3571,27 +4607,76 @@
       "color": "#2972F4"
     },
     "advantage4": {
-      "CName": "公平",
-      "EName": "Consistency",
-      "DESC": "深知应平等待人，希望有固定的章程以及清晰的规则和程序，每个人都可以遵循。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
+      "CName": "和谐",
+      "EName": "Harmony",
+      "DESC": "渴求协调一致，避免冲突，寻求共识。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
     },
     "advantage5": {
-      "CName": "成就",
-      "EName": "Achiever",
-      "DESC": "始终渴望有所建树，每一天似乎都从零开始，必须获得某种有形的成果，如此才能感觉良好。",
-      "Field": "Doer",
-      "fieldCName": "执行力",
-      "fieldEName": "Doer",
-      "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
-      "color": "#9A38D7"
+      "CName": "伯乐",
+      "EName": "Developer",
+      "DESC": "善于发现并培养他人的潜能，能够察觉任何微小的进步，并从中得到满足感。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
     },
-    "industry": "香港中文大学在读博士",
-    "position": "工科博士",
-    "problem": "1、与自己弱点和解；2、改善人际关系；3、弥补短板；4、减少焦虑；5、找工作、副业探索"
+    "advantage30": {
+      "CName": "取悦",
+      "EName": "Woo",
+      "DESC": "喜欢结交新人并博取其欢心，能够在人际交往中打破沉默，与他人建立联系，并从中得到满足。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "advantage31": {
+      "CName": "包容",
+      "EName": "Includer",
+      "DESC": "善于接纳他人，关心那些被忽略的人，并努力让这些人融入集体。",
+      "Field": "Warmer",
+      "fieldCName": "关系建立",
+      "fieldEName": "Warmer",
+      "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
+      "color": "#2972F4"
+    },
+    "advantage32": {
+      "CName": "战略",
+      "EName": "Strategic",
+      "DESC": "能够从宏观的角度看待问题，善于规划和布局。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage33": {
+      "CName": "前瞻",
+      "EName": "Futuristic",
+      "DESC": "对未来着迷，想到未来，就很激动/兴奋，如果有人跟你说过去怎样怎样，没一会儿就跑神了，但如果聊到未来如何如何，立刻就来劲了，关注行业动态，新动向能很快掌握。",
+      "Field": "Thinker",
+      "fieldCName": "战略思维",
+      "fieldEName": "Thinker",
+      "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
+      "color": "#45B076"
+    },
+    "advantage34": {
+      "CName": "沟通",
+      "EName": "Communication",
+      "DESC": "热爱表达，妙笔生花，擅长沟通。",
+      "Field": "Influencer",
+      "fieldCName": "影响力",
+      "fieldEName": "Influencer",
+      "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
+      "color": "#F88825"
+    },
+    "industry": "景区",
+    "position": "营地管理"
   }
 ]

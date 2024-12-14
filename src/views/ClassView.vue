@@ -61,6 +61,9 @@
 
 <script>
 // import { TEACHING_ASSISTANT } from '@/utils/strengths';
+import CLASSMATES_1_JSON from '@/utils/data/CLASSMATES_1.json';
+import CLASSMATES_2_JSON from '@/utils/data/CLASSMATES_2.json';
+import CLASSMATES_3_JSON from '@/utils/data/CLASSMATES_3.json';
 import CLASSMATES_4_JSON from '@/utils/data/CLASSMATES_4.json';
 import CLASSMATES_5_JSON from '@/utils/data/CLASSMATES_5.json';
 // eslint-disable-next-line import/no-unresolved
@@ -91,19 +94,34 @@ export default {
       classroom: '5',
       classOptions: [
         {
+          value: 'all',
+          label: '全部',
+        },
+        {
+          value: '1',
+          label: '1期',
+        },
+        {
+          value: '2',
+          label: '2期',
+        },
+        {
+          value: '3',
+          label: '3期',
+        },
+        {
           value: '4',
-          label: '4班',
+          label: '4期',
         },
         {
           value: '5',
-          label: '5班',
+          label: '5期',
         },
-        // {
-        //   value: 'DEMO',
-        //   label: '测试组',
-        // },
       ],
       classes: {
+        CLASSMATES_1_JSON,
+        CLASSMATES_2_JSON,
+        CLASSMATES_3_JSON,
         CLASSMATES_4_JSON,
         CLASSMATES_5_JSON,
         // CLASSMATES_DEMO_JSON,
@@ -190,78 +208,88 @@ export default {
       const statistics1to10 = {};
       const statistics30to34 = {};
 
-      this.members = this.classes[`CLASSMATES_${this.classroom}_JSON`].map(
-        (item, index) => {
-          const advantages1to5 = [];
-          // eslint-disable-next-line no-plusplus
-          for (let i = 1; i <= 5; i++) {
-            if (item[`advantage${i}`]) {
-              const temp = item[`advantage${i}`];
-              if (!statistics1to5[temp.EName]) {
-                statistics1to5[temp.EName] = 0;
-              }
-              statistics1to5[temp.EName] += 1;
+      let classroom = [];
 
-              if (!statistics1to10[temp.EName]) {
-                statistics1to10[temp.EName] = 0;
-              }
-              statistics1to10[temp.EName] += 1;
+      if (this.classroom === 'all') {
+        classroom = [];
+        // eslint-disable-next-line no-plusplus
+        for (let i = 1; i <= 5; i++) {
+          classroom = [...classroom, ...this.classes[`CLASSMATES_${i}_JSON`]];
+        }
+      } else {
+        classroom = this.classes[`CLASSMATES_${this.classroom}_JSON`];
+      }
 
-              // if (!statistics30to34[temp.EName]) {
-              //   statistics30to34[temp.EName] = 0;
-              // }
-              // statistics30to34[temp.EName] += 1;
-
-              advantages1to5.push({
-                ...temp,
-              });
+      this.members = classroom.map((item, index) => {
+        const advantages1to5 = [];
+        // eslint-disable-next-line no-plusplus
+        for (let i = 1; i <= 5; i++) {
+          if (item[`advantage${i}`]) {
+            const temp = item[`advantage${i}`];
+            if (!statistics1to5[temp.EName]) {
+              statistics1to5[temp.EName] = 0;
             }
-          }
-          const advantages6to10 = [];
-          // eslint-disable-next-line no-plusplus
-          for (let i = 6; i <= 10; i++) {
-            if (item[`advantage${i}`]) {
-              const temp = item[`advantage${i}`];
-              if (!statistics1to10[temp.EName]) {
-                statistics1to10[temp.EName] = 0;
-              }
-              statistics1to10[temp.EName] += 1;
-              advantages6to10.push({
-                ...item[`advantage${i}`],
-              });
-            }
-          }
+            statistics1to5[temp.EName] += 1;
 
-          const advantages30to34 = [];
-          // eslint-disable-next-line no-plusplus
-          for (let i = 30; i <= 34; i++) {
-            if (item[`advantage${i}`]) {
-              const temp = item[`advantage${i}`];
-              if (!statistics30to34[temp.EName]) {
-                statistics30to34[temp.EName] = 0;
-              }
-              statistics30to34[temp.EName] += 1;
-              advantages30to34.push({
-                ...item[`advantage${i}`],
-              });
+            if (!statistics1to10[temp.EName]) {
+              statistics1to10[temp.EName] = 0;
             }
-          }
+            statistics1to10[temp.EName] += 1;
 
-          return {
-            sortedIndex: index + 1,
-            ...item,
+            // if (!statistics30to34[temp.EName]) {
+            //   statistics30to34[temp.EName] = 0;
+            // }
+            // statistics30to34[temp.EName] += 1;
+
+            advantages1to5.push({
+              ...temp,
+            });
+          }
+        }
+        const advantages6to10 = [];
+        // eslint-disable-next-line no-plusplus
+        for (let i = 6; i <= 10; i++) {
+          if (item[`advantage${i}`]) {
+            const temp = item[`advantage${i}`];
+            if (!statistics1to10[temp.EName]) {
+              statistics1to10[temp.EName] = 0;
+            }
+            statistics1to10[temp.EName] += 1;
+            advantages6to10.push({
+              ...item[`advantage${i}`],
+            });
+          }
+        }
+
+        const advantages30to34 = [];
+        // eslint-disable-next-line no-plusplus
+        for (let i = 30; i <= 34; i++) {
+          if (item[`advantage${i}`]) {
+            const temp = item[`advantage${i}`];
+            if (!statistics30to34[temp.EName]) {
+              statistics30to34[temp.EName] = 0;
+            }
+            statistics30to34[temp.EName] += 1;
+            advantages30to34.push({
+              ...item[`advantage${i}`],
+            });
+          }
+        }
+
+        return {
+          sortedIndex: index + 1,
+          ...item,
+          advantages1to5,
+          advantages6to10,
+          advantages30to34,
+          rate: this.calcRate({
             advantages1to5,
             advantages6to10,
             advantages30to34,
-            rate: this.calcRate({
-              advantages1to5,
-              advantages6to10,
-              advantages30to34,
-            }),
-          };
-          // eslint-disable-next-line comma-dangle
-        },
-      );
+          }),
+        };
+        // eslint-disable-next-line comma-dangle
+      });
 
       // console.log(statistics1to5, statistics1to10);
       this.statistics1to5 = statistics1to5;
@@ -367,7 +395,7 @@ export default {
   height: 100%;
 
   &__left {
-    width: 33%;
+    width: 31%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -386,7 +414,7 @@ export default {
     }
   }
   &__right {
-    width: 67%;
+    width: 69%;
     position: relative;
     box-sizing: border-box;
     display: flex;

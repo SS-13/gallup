@@ -1,7 +1,7 @@
 [
   {
-    "name": "AM",
-    "class": 4,
+    "name": "A.M",
+    "class": 5,
     "advantage6": {
       "CName": "公平",
       "EName": "Consistency",
@@ -152,11 +152,12 @@
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
-    "problem": "结合优势报告优势找到自己工作刻意练习的方向，目标及步骤"
+    "industry": "软件",
+    "position": "应用支持"
   },
   {
-    "name": "叶天昊",
-    "class": 4,
+    "name": "Alan",
+    "class": 5,
     "advantage6": {
       "CName": "排难",
       "EName": "Restorative",
@@ -307,11 +308,12 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
-    "problem": "专注力低下"
+    "industry": "Saas",
+    "position": "市场活动"
   },
   {
-    "name": "肖晶",
-    "class": 4,
+    "name": "CiCi",
+    "class": 5,
     "advantage6": {
       "CName": "专注",
       "EName": "Focus",
@@ -462,11 +464,12 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "problem": "晋升"
+    "industry": "国企编辑",
+    "position": "部门主任"
   },
   {
-    "name": "王栋",
-    "class": 4,
+    "name": "DONG",
+    "class": 5,
     "advantage6": {
       "CName": "排难",
       "EName": "Restorative",
@@ -617,11 +620,12 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "problem": "未来规划"
+    "industry": "博士在读（运动科学）",
+    "position": "博士在读"
   },
   {
-    "name": "邓诗怀",
-    "class": 4,
+    "name": "Yoyo",
+    "class": 5,
     "advantage6": {
       "CName": "统率",
       "EName": "Command",
@@ -772,11 +776,12 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "problem": "带团队转型及盈利"
+    "industry": "房地产",
+    "position": "销售"
   },
   {
-    "name": "林煌扬",
-    "class": 4,
+    "name": "阿扬",
+    "class": 5,
     "advantage6": {
       "CName": "战略",
       "EName": "Strategic",
@@ -927,11 +932,12 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "problem": "如何给予自己确认感"
+    "industry": "电商/创业",
+    "position": "创始人"
   },
   {
-    "name": "张晨曦",
-    "class": 4,
+    "name": "阿张",
+    "class": 5,
     "advantage6": {
       "CName": "公平",
       "EName": "Consistency",
@@ -1082,11 +1088,12 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "problem": "求职方向"
+    "industry": "前教育行业",
+    "position": "待业"
   },
   {
     "name": "陈哲",
-    "class": 4,
+    "class": 5,
     "advantage6": {
       "CName": "审慎",
       "EName": "Deliberative",
@@ -1237,11 +1244,12 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
-    "problem": "想升为管理岗"
+    "industry": "软件服务行业",
+    "position": "对日订单管理 PA"
   },
   {
     "name": "邓瑜",
-    "class": 4,
+    "class": 5,
     "advantage6": {
       "CName": "公平",
       "EName": "Consistency",
@@ -1392,11 +1400,12 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "problem": "了解自己的优势，找准自己的努力方向"
+    "industry": "教育",
+    "position": "高中英语老师"
   },
   {
-    "name": "胡国建",
-    "class": 4,
+    "name": "古月",
+    "class": 5,
     "advantage6": {
       "CName": "搜集",
       "EName": "Input",
@@ -1547,11 +1556,12 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
-    "problem": "我现在遇到了一个选择就业还是创业两难的问题。"
+    "industry": "国家医疗保障服务热线中心",
+    "position": "新媒体运营"
   },
   {
     "name": "郭荣斌",
-    "class": 4,
+    "class": 5,
     "advantage6": {
       "CName": "体谅",
       "EName": "Empathy",
@@ -1702,11 +1712,12 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "problem": "跳槽。找到距离、薪酬合适的专精人才发展的岗位"
+    "industry": "光伏、风电新能源施工",
+    "position": "培训专责"
   },
   {
-    "name": "王海霞",
-    "class": 4,
+    "name": "海霞",
+    "class": 5,
     "advantage6": {
       "CName": "包容",
       "EName": "Includer",
@@ -1857,11 +1868,12 @@
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
-    "problem": "容易间歇性没动力，然后就很懊恼"
+    "industry": "冶金行业设计院",
+    "position": "电气设计师"
   },
   {
-    "name": "郑希超",
-    "class": 4,
+    "name": "好事",
+    "class": 5,
     "advantage6": {
       "CName": "排难",
       "EName": "Restorative",
@@ -2012,11 +2024,12 @@
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
-    "problem": "现在的工作不能发挥自身优势，感觉自己没有工作价值。"
+    "industry": "学前教育",
+    "position": "教师"
   },
   {
-    "name": "蔡琦",
-    "class": 4,
+    "name": "脚丫",
+    "class": 5,
     "advantage6": {
       "CName": "责任",
       "EName": "Responsibility",
@@ -2167,11 +2180,12 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
-    "problem": "想要更热情或激情一点对待工作"
+    "industry": "服务业",
+    "position": "收银"
   },
   {
-    "name": "李伟豪",
-    "class": 4,
+    "name": "君泽",
+    "class": 5,
     "advantage6": {
       "CName": "和谐",
       "EName": "Harmony",
@@ -2322,11 +2336,12 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "problem": "马上转岗至风控，需要撰写大量数据报告、分析舆情风险、搭建感知风险流程，不知道是否适合"
+    "industry": "互联网运营",
+    "position": "审核/风控"
   },
   {
-    "name": "钟翔",
-    "class": 4,
+    "name": "老肥",
+    "class": 5,
     "advantage6": {
       "CName": "包容",
       "EName": "Includer",
@@ -2477,11 +2492,12 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "problem": "追回款"
+    "industry": "创业（教培，地产、药品销售，建筑）",
+    "position": "领导"
   },
   {
-    "name": "李增杰",
-    "class": 4,
+    "name": "李增杰 Walter.Li",
+    "class": 5,
     "advantage6": {
       "CName": "伯乐",
       "EName": "Developer",
@@ -2632,11 +2648,12 @@
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
-    "problem": "现有工作与优势的匹配度，怎么加强和调整？"
+    "industry": "生物制药",
+    "position": "高级监查员"
   },
   {
     "name": "林杰",
-    "class": 4,
+    "class": 5,
     "advantage6": {
       "CName": "关联",
       "EName": "Connectedness",
@@ -2787,11 +2804,12 @@
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
-    "problem": "工作分不清轻状况、处理事情常常双方都不满意，人际关系紧张，胡思乱想"
+    "industry": "房地产行业",
+    "position": "监理资料员"
   },
   {
     "name": "刘必榕",
-    "class": 4,
+    "class": 5,
     "advantage6": {
       "CName": "适应",
       "EName": "Adaptability",
@@ -2942,11 +2960,12 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "problem": "我40+，就职于某外企，从事翻译行政工作十多年。单位降本增效，自己知识技能单一，未从事于行业关键核心岗位，目前遭遇调岗劝退"
+    "industry": "制造业",
+    "position": "翻译行政"
   },
   {
     "name": "刘和鑫",
-    "class": 4,
+    "class": 5,
     "advantage6": {
       "CName": "和谐",
       "EName": "Harmony",
@@ -3097,11 +3116,12 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "problem": "近段性问题，这段时间想从员工，晋升到国企部门中层管理者。\n能力性问题，工作效率低，记性不好，同时间段处理多个事项，工作效率太低\n"
+    "industry": "粮食贸易",
+    "position": "人力资源"
   },
   {
     "name": "马兰",
-    "class": 4,
+    "class": 5,
     "advantage6": {
       "CName": "追求",
       "EName": "Significance",
@@ -3252,11 +3272,12 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "problem": "表达能力，应变能力不够强，不会汇报"
+    "industry": "互联网电商行业",
+    "position": "产品运营岗"
   },
   {
     "name": "墨墨",
-    "class": 4,
+    "class": 5,
     "advantage6": {
       "CName": "成就",
       "EName": "Achiever",
@@ -3407,11 +3428,12 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "problem": "领导的情绪承接（工作内容之外的），当领导跟我讲一些类似朋友间的话题可能需要我提供情绪价值时，会觉得有些尴尬，不太接的住。在意识到以前把自己定义为工具人，需要突破想寻求突破承接领导情绪的法门或者扭转自己之前的偏见认知"
+    "industry": "互联网IT",
+    "position": "产品"
   },
   {
-    "name": "谭桃花",
-    "class": 4,
+    "name": "胖桃子",
+    "class": 5,
     "advantage6": {
       "CName": "沟通",
       "EName": "Communication",
@@ -3562,11 +3584,12 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
-    "problem": "觉得自己不擅长做销售，没有信心"
+    "industry": "销售行业",
+    "position": "本地生活bd"
   },
   {
-    "name": "何远",
-    "class": 4,
+    "name": "三元",
+    "class": 5,
     "advantage6": {
       "CName": "责任",
       "EName": "Responsibility",
@@ -3717,11 +3740,12 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "problem": "1、解决职场转型的方向问题"
+    "industry": "医疗",
+    "position": "人力资源"
   },
   {
-    "name": "苏慧慧",
-    "class": 4,
+    "name": "苏慧",
+    "class": 5,
     "advantage6": {
       "CName": "公平",
       "EName": "Consistency",
@@ -3872,11 +3896,12 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "problem": "工作没有目标，拿不到结果，也不能晋级"
+    "industry": "英语教育",
+    "position": "公立学校初中英语老师"
   },
   {
-    "name": "李丽莹",
-    "class": 4,
+    "name": "土豆",
+    "class": 5,
     "advantage6": {
       "CName": "适应",
       "EName": "Adaptability",
@@ -4027,11 +4052,12 @@
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
-    "problem": "目前拎重点，提升对外沟通的能力"
+    "industry": "互联网",
+    "position": "测试开发工程师"
   },
   {
-    "name": "庞鹤",
-    "class": 4,
+    "name": "文清",
+    "class": 5,
     "advantage6": {
       "CName": "搜集",
       "EName": "Input",
@@ -4182,11 +4208,12 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "problem": "解决工作中按要求完成科研任务，排难晋升问题。"
+    "industry": "高校教师",
+    "position": "教师岗"
   },
   {
-    "name": "YCC",
-    "class": 4,
+    "name": "西西",
+    "class": 5,
     "advantage6": {
       "CName": "理念",
       "EName": "Ideation",
@@ -4337,11 +4364,12 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "problem": "从业方向"
+    "industry": "教育教培（目前）",
+    "position": "教师（目前）"
   },
   {
-    "name": "蔡蕾",
-    "class": 4,
+    "name": "小C",
+    "class": 5,
     "advantage6": {
       "CName": "和谐",
       "EName": "Harmony",
@@ -4492,11 +4520,12 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "problem": "刚踏入新行业从头做起，积极适应中"
+    "industry": "医疗健康",
+    "position": "理疗师助理"
   },
   {
-    "name": "马晓黎",
-    "class": 4,
+    "name": "小马",
+    "class": 5,
     "advantage6": {
       "CName": "责任",
       "EName": "Responsibility",
@@ -4647,11 +4676,12 @@
       "desc": "战略思维才干主题突出的人能帮团队思考可能发生的事，他们长于获取并分析信息，以做出更好决策",
       "color": "#45B076"
     },
-    "problem": "如何提升效率，让自己完成更多更难的事情"
+    "industry": "IT",
+    "position": "软件工程师"
   },
   {
-    "name": "韩丹",
-    "class": 4,
+    "name": "雅丹",
+    "class": 5,
     "advantage6": {
       "CName": "体谅",
       "EName": "Empathy",
@@ -4802,11 +4832,12 @@
       "desc": "影响力才干主题突出的人，懂得如何掌握事局和影响他人，并且吸取意见",
       "color": "#F88825"
     },
-    "problem": "方向"
+    "industry": "房产公司",
+    "position": "提前退休"
   },
   {
-    "name": "杨慧",
-    "class": 4,
+    "name": "杨慧YH",
+    "class": 5,
     "advantage6": {
       "CName": "责任",
       "EName": "Responsibility",
@@ -4957,11 +4988,12 @@
       "desc": "执行力才干主题突出的人，懂得如何让事情有效向前，促进其正常发展",
       "color": "#9A38D7"
     },
-    "problem": "做决策时容易摇摆和随大流"
+    "industry": "教育信息化",
+    "position": "课程研发"
   },
   {
-    "name": "周云柯",
-    "class": 4,
+    "name": "云",
+    "class": 5,
     "advantage6": {
       "CName": "理念",
       "EName": "Ideation",
@@ -5112,6 +5144,7 @@
       "desc": "关系建立才干主题突出的人，具备构建牢固关系的能力，从而将团队凝聚起来发挥更大力量",
       "color": "#2972F4"
     },
-    "problem": "人际关系"
+    "industry": "工程",
+    "position": "部门主管合伙人"
   }
 ]
