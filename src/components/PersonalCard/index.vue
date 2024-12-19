@@ -32,12 +32,6 @@
       <el-popover v-if="editable" placement="top-start" trigger="hover">
         <i class="el-icon-setting" slot="reference"></i>
         <div class="personal-card__header__setting">
-          <el-button
-            style="padding: 3px 0"
-            type="text"
-            icon="el-icon-connection"
-            >关联</el-button
-          >
           <el-button style="padding: 3px 0" type="text" icon="el-icon-edit"
             >写报告</el-button
           >

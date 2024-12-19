@@ -28,17 +28,24 @@
         :closeModal="closeModal"
         :currentSelectedAdvantage="currentSelectedAdvantage"
         :statistics="statistics"
+        :hasStatistics="hasStatistics"
         :language="language"
+        :totalAdvantagesNum="totalAdvantagesNum"
+        :maxNum="maxNum"
       />
 
       <div v-if="hasStatistics" class="sum">
         {{ calcSumByField(field.fieldEName) }}
+        <span v-if="totalAdvantagesNum > 0" :style="{ fontSize: '12px' }">
+          {{ `/ ${totalAdvantagesNum}` }}
+        </span>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import { findMaxByStatistics } from '@/utils/tool';
 import Advantage from './Advantage.vue';
 
 export default {
@@ -61,11 +68,15 @@ export default {
     },
     currentSelectedAdvantage: {
       type: Object,
-      default: () => {},
+      default: () => ({}),
     },
     statistics: {
       type: Object,
-      default: () => {},
+      default: () => ({}),
+    },
+    totalAdvantagesNum: {
+      type: Number,
+      default: 0,
     },
     language: {
       type: String,
@@ -77,7 +88,22 @@ export default {
     [Advantage.name]: Advantage,
   },
   data() {
-    return {};
+    return {
+      maxNum: 0,
+    };
+  },
+  mounted() {
+    this.maxNum = findMaxByStatistics(this.statistics);
+  },
+  watch: {
+    hasStatistics: {
+      deep: true,
+      handler(val) {
+        if (val) {
+          this.maxNum = findMaxByStatistics(this.statistics);
+        }
+      },
+    },
   },
   computed: {
     advantagesByField() {

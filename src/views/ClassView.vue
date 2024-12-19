@@ -26,6 +26,7 @@
         :currentSelectedAdvantage="currentSelectedAdvantage"
         :statistics="statistics"
         language="zh"
+        :totalAdvantagesNum="totalAdvantagesNum"
       ></field-container>
     </div>
     <div class="classroom__right">
@@ -84,6 +85,7 @@ export default {
       statistics1to5: {},
       statistics1to10: {},
       statistics30to34: {},
+      totalAdvantagesNum: 0,
       status: '1to5',
       members: [],
       tableData: [],
@@ -149,8 +151,16 @@ export default {
   computed: {
     statistics() {
       if (this.status === '30to34') {
+        // eslint-disable-next-line vue/no-side-effects-in-computed-properties
+        this.totalAdvantagesNum = 5 * this.members.length;
         return this.statistics30to34;
       }
+
+      // eslint-disable-next-line vue/no-side-effects-in-computed-properties, operator-linebreak
+      this.totalAdvantagesNum =
+        this.status === '1to5'
+          ? 5 * this.members.length
+          : 10 * this.members.length;
       return this.status === '1to5'
         ? this.statistics1to5
         : this.statistics1to10;

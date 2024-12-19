@@ -69,6 +69,19 @@ export const generateUUID = () => {
   });
 };
 
+export const findMaxByStatistics = (data) => {
+  console.log('%c [ data ]-73', 'font-size:13px; background:pink; color:#bf2c9f;', data);
+  let max = Object.values(data)[0]; // 假设第一个值是最大的
+  Object.values(data).forEach((value) => {
+    if (value > max) {
+      max = value;
+    }
+  });
+
+  console.log(max);
+  return max;
+};
+
 export default {
   ATTENTION_ANDICATOR,
 };

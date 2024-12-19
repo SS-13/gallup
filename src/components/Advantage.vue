@@ -2,6 +2,10 @@
   <div class="advantage-container">
     <div
       class="advantage-container__item"
+      :class="{
+        'advantage-container__item--empty':
+          hasStatistics && !statistics[advantage.EName],
+      }"
       v-for="(advantage, index) in advantages"
       :key="index"
       :style="{
@@ -21,11 +25,20 @@
       <div class="statistics" v-if="hasStatistics">
         <span>{{ statistics[advantage.EName] || 0 }}</span>
       </div>
+
+      <img
+        v-if="hasStatistics && isFirst(advantage)"
+        class="first"
+        :src="crownImg"
+        alt="crown"
+      />
     </div>
   </div>
 </template>
 
 <script>
+import crownImg from '@/assets/images/crown.png';
+
 export default {
   props: {
     advantages: {
@@ -46,11 +59,23 @@ export default {
     },
     currentSelectedAdvantage: {
       type: Object,
-      default: () => {},
+      default: () => ({}),
     },
     statistics: {
       type: Object,
-      default: () => {},
+      default: () => ({}),
+    },
+    hasStatistics: {
+      type: Boolean,
+      default: false,
+    },
+    totalAdvantagesNum: {
+      type: Number,
+      default: 0,
+    },
+    maxNum: {
+      type: Number,
+      default: Number.MAX_SAFE_INTEGER,
     },
     language: {
       type: String,
@@ -59,13 +84,11 @@ export default {
   },
   name: 'AdvantageContainer',
   data() {
-    return {};
+    return {
+      crownImg,
+    };
   },
   computed: {
-    hasStatistics() {
-      // console.log(this.statistics, ' this.statistics');
-      return Object.keys(this.statistics || {}).length > 0;
-    },
     showLang() {
       return (lang) => {
         if (this.language === 'all') {
@@ -75,16 +98,25 @@ export default {
         return this.language === lang;
       };
     },
+    isFirst() {
+      return (advantage) => this.statistics[advantage.EName] === this.maxNum;
+    },
   },
   mounted() {
-    console.log(this.advantages);
+    console.log(this.advantages, 'this.advantages');
   },
   methods: {
     handleItemClick(params) {
       if (this.currentSelectedAdvantage.EName === params.EName) {
         this.closeModal();
       } else {
-        this.openModal(params);
+        // eslint-disable-next-line no-lonely-if
+        if (this.hasStatistics) {
+          // eslint-disable-next-line no-unused-expressions
+          this.statistics[params.EName] && this.openModal(params);
+        } else {
+          this.openModal(params);
+        }
       }
     },
     hexToRgb(color, opacity = 1) {
@@ -125,6 +157,19 @@ export default {
     // opacity: 0.8;
     cursor: pointer;
 
+    &:hover {
+      color: #fff !important;
+    }
+
+    &--empty {
+      opacity: 0.4;
+
+      &:hover {
+        color: #2c3e50 !important;
+        cursor: not-allowed;
+      }
+    }
+
     div {
       > h3,
       > p {
@@ -150,10 +195,14 @@ export default {
       font-size: 20px;
       font-weight: bold;
     }
-  }
 
-  &__item:hover {
-    color: #fff !important;
+    .first {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 20px;
+      height: 20px;
+    }
   }
 }
 </style>

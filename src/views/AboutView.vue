@@ -24,6 +24,7 @@
         :closeModal="closeModal"
         :currentSelectedAdvantage="currentSelectedAdvantage"
         :statistics="statistics"
+        :totalAdvantagesNum="totalAdvantagesNum"
       ></field-container>
     </div>
     <div class="about-us__right">
@@ -92,6 +93,7 @@ export default {
       currentSelectedAdvantage: {},
       statistics1to5: {},
       statistics1to10: {},
+      totalAdvantagesNum: 0,
       status: '1to5',
       members: [],
       tableData: [],
@@ -120,6 +122,12 @@ export default {
   },
   computed: {
     statistics() {
+      // eslint-disable-next-line vue/no-side-effects-in-computed-properties, operator-linebreak
+      this.totalAdvantagesNum =
+        this.status === '1to5'
+          ? 5 * this.members.length
+          : 10 * this.members.length;
+
       return this.status === '1to5'
         ? this.statistics1to5
         : this.statistics1to10;
@@ -237,7 +245,7 @@ export default {
         this.currentSelectedAdvantage,
         this.members,
         // eslint-disable-next-line comma-dangle
-        'currentSelectedAdvantage'
+        'currentSelectedAdvantage',
       );
       const filteredMembers = this.filterMembers();
       console.log(filteredMembers);

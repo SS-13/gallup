@@ -40,10 +40,15 @@
       <el-descriptions-item label="我能带来(贡献)">{{
         detail.contribution
       }}</el-descriptions-item>
-      <el-descriptions-item label="我需要(需求)">{{
-        detail.requirement
-      }}</el-descriptions-item>
-      <el-descriptions-item label="我喜欢(价值观)">
+      <el-descriptions-item
+        label="我需要(需求)"
+        label-class-name="desc-hight-light"
+        >{{ detail.requirement }}</el-descriptions-item
+      >
+      <el-descriptions-item
+        label="我喜欢(价值观)"
+        label-class-name="desc-hight-light"
+      >
         {{ detail.value }}
         <!-- <el-tag size="small">学校</el-tag> -->
       </el-descriptions-item>
@@ -174,7 +179,7 @@ export default {
           this.detail =
             ADVANTAGES_DETAILS_JSON.find(
               // eslint-disable-next-line comma-dangle
-              (item) => item?.CName === newVal?.CName
+              (item) => item?.CName === newVal?.CName,
             ) || {};
         }
       },
@@ -225,6 +230,12 @@ export default {
     }
   }
 
+  .desc-hight-light {
+    font-weight: bold !important;
+    text-align: right !important;
+    color: #2c3e50 !important;
+  }
+
   .el-descriptions-item__cell {
     margin-bottom: 0px !important;
   }
@@ -236,6 +247,14 @@ export default {
   .el-descriptions__header {
     margin-bottom: 6px !important;
     margin-top: 6px !important;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+
+    .el-descriptions__title {
+      flex: 1;
+    }
   }
 }
 </style>

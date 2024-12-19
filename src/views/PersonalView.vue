@@ -129,6 +129,7 @@ export default {
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
+  min-height: 300px;
   // height: 100%;
   //   padding: 20px;
   background-color: #f5f7fa;

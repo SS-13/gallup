@@ -35,39 +35,39 @@ export const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/ClassView.vue'),
     auth: ['admin'],
   },
-  // {
-  //   path: '/personal',
-  //   name: 'personal',
-  //   descName: '个人报告',
-  //   icon: 'el-icon-s-order',
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/PersonalView.vue'),
-  //   auth: ['admin'],
-  // },
-  // {
-  //   path: '/team',
-  //   name: 'team',
-  //   descName: '团队分析',
-  //   icon: 'el-icon-s-order',
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/TeamView.vue'),
-  //   auth: ['admin'],
-  // },
-  // {
-  //   path: '/test',
-  //   name: 'test',
-  //   descName: '功能测试',
-  //   icon: 'el-icon-s-tools',
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/TestView.vue'),
-  //   auth: ['admin'],
-  // },
+  {
+    path: '/personal',
+    name: 'personal',
+    descName: '个人报告',
+    icon: 'el-icon-s-order',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/PersonalView.vue'),
+    auth: ['admin'],
+  },
+  {
+    path: '/team',
+    name: 'team',
+    descName: '团队分析',
+    icon: 'el-icon-s-order',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/TeamView.vue'),
+    auth: ['admin'],
+  },
+  {
+    path: '/test',
+    name: 'test',
+    descName: '功能测试',
+    icon: 'el-icon-s-tools',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/TestView.vue'),
+    auth: ['admin'],
+  },
 ].filter((item) => {
   if (item.auth.includes('admin')) {
     return localStorage.getItem('role') === 'admingallup';
