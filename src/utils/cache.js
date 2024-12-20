@@ -1,4 +1,4 @@
-const CARD_LIST = 'CARDS_LIST';
+const CARD_LIST = 'PERSONAL_REPORT_LIST';
 
 export const getCardList = () => {
   const temp = localStorage.getItem(CARD_LIST);

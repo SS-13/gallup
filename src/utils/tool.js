@@ -118,6 +118,38 @@ export const extractMatches = (arrayOfStrings) => {
   };
 };
 
+export const extractSolutionsMatches = (arrayOfStrings) => {
+  const regex = /^采取行动以充分发挥潜能[^\s"]*/;
+  const matches = arrayOfStrings
+    .map((str) => {
+      const match = str.match(regex);
+      console.log(match, 'match');
+      let formated = null;
+      if (match) {
+        formated = {};
+        const titleIndexEnd = str.indexOf('。') + 1;
+        const contentIndexEnd = str.indexOf('||');
+        // eslint-disable-next-line prefer-destructuring
+        formated.title = str.substring(11, titleIndexEnd);
+        let temp = str.substring(titleIndexEnd, contentIndexEnd);
+        temp = temp.substring(0, temp.lastIndexOf('。') + 1);
+        // console.log(temp, 'temp');
+        let [contents1, contents2] = temp.split('留意盲点留意盲点');
+        contents1 = contents1.split(/•/);
+        contents1.shift();
+
+        contents2 = contents2.split(/•/);
+        contents2.shift();
+        formated.contents = contents1;
+        formated.blinds = contents2;
+      }
+      return formated;
+    })
+    .filter((item) => !!item);
+
+  return matches;
+};
+
 export default {
   ATTENTION_ANDICATOR,
 };

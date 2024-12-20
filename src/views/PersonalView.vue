@@ -29,6 +29,7 @@ import {
   getPersonalStrengthByPDFStrArray,
   generateUUID,
   extractMatches,
+  extractSolutionsMatches,
 } from '@/utils/tool';
 import { getCardList, setCardList } from '@/utils/cache';
 import PersonalCard from '@/components/PersonalCard/index.vue';
@@ -89,6 +90,12 @@ export default {
       const pdfStrArray = await Promise.all(waterfall);
       const talentOrders = getPersonalStrengthByPDFStrArray(pdfStrArray);
       const firstFiveDesc = extractMatches(pdfStrArray);
+      const firstFiveSolutions = extractSolutionsMatches(pdfStrArray);
+      console.log(
+        firstFiveSolutions,
+        JSON.stringify(firstFiveSolutions),
+        'firstFiveSolutions',
+      );
       console.log(
         firstFiveDesc,
         JSON.stringify(firstFiveDesc),
@@ -101,7 +108,8 @@ export default {
         id: generateUUID(),
         name: name || `用户${cardlist.length + 1}`,
         talentOrders,
-        description: matches,
+        descriptions: matches,
+        solutions: firstFiveSolutions,
       });
 
       setCardList(cardlist);

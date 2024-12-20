@@ -55,22 +55,69 @@
         height="600"
         trigger="click"
       >
-        <div>
+        <div class="personal-card__content__popover-container">
+          <el-radio-group
+            v-model="descType"
+            size="mini"
+            :style="{ marginBottom: '5px' }"
+          >
+            <el-radio-button label="detail">详情</el-radio-button>
+            <el-radio-button label="blind">盲点&解法</el-radio-button>
+            <!-- <el-radio-button label="solution">解法</el-radio-button> -->
+          </el-radio-group>
           <el-tabs tab-position="left">
             <el-tab-pane
               :label="advantage.CName"
               v-for="(advantage, idx) in advantage1to5"
               :key="`advantage_${idx}`"
             >
-              <div class="personal-card__content__desc">
+              <div
+                v-if="descType === 'detail'"
+                class="personal-card__content__desc"
+              >
+                <h3>
+                  {{ descriptions[idx].reason }}
+                </h3>
                 <p
                   :style="{ backgroundColor: hexToRgb(advantage.color, 0.4) }"
-                  v-for="(desc, jdx) in description[idx].splitDesc"
+                  v-for="(desc, jdx) in descriptions[idx].splitDesc"
                   :key="`desc_${jdx}`"
                 >
                   {{ desc }}
                 </p>
-                <h3>{{ description[idx].reason }}</h3>
+              </div>
+              <!-- <div
+                v-else-if="descType === 'blind'"
+                class="personal-card__content__desc"
+              >
+                <h3>留意盲点</h3>
+                <p
+                  :style="{ backgroundColor: hexToRgb('#2c3e50', 0.2) }"
+                  v-for="(blind, jdx) in solutions[idx].blinds"
+                  :key="`blind_${jdx}`"
+                >
+                  {{ blind }}
+                </p>
+              </div> -->
+              <div v-else class="personal-card__content__desc">
+                <h3>留意盲点</h3>
+                <p
+                  :style="{ backgroundColor: hexToRgb('#2c3e50', 0.2) }"
+                  v-for="(blind, jdx) in solutions[idx].blinds"
+                  :key="`blind_${jdx}`"
+                >
+                  {{ blind }}
+                </p>
+                <h3>
+                  {{ solutions[idx].title }}
+                </h3>
+                <p
+                  :style="{ backgroundColor: hexToRgb('#2c3e50', 0.2) }"
+                  v-for="(content, jdx) in solutions[idx].contents"
+                  :key="`content_${jdx}`"
+                >
+                  {{ content }}
+                </p>
               </div>
             </el-tab-pane>
           </el-tabs>
@@ -164,7 +211,9 @@ export default {
       strengthsMap: {},
       isEdit: false,
       name: '',
-      description: [],
+      descriptions: [],
+      solutions: [],
+      descType: 'detail',
     };
   },
   mounted() {
@@ -207,8 +256,9 @@ export default {
         'font-size:13px; background:pink; color:#bf2c9f;',
         this.personInfo,
       );
-      const { talentOrders, description } = this.personInfo;
-      this.description = description;
+      const { talentOrders, descriptions, solutions } = this.personInfo;
+      this.descriptions = descriptions;
+      this.solutions = solutions;
       const advantage1to5 = [];
       const advantage6to10 = [];
       const advantage11to16 = [];
@@ -321,11 +371,21 @@ export default {
       }
     }
 
+    &__popover-container {
+      position: relative;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-end;
+      padding-bottom: 10px;
+    }
+
     &__desc {
       width: 100%;
       p {
         margin: 0 0 3px 0;
-        padding: 4px 10px;
+        padding: 5px 10px;
         font-size: 14px;
         line-height: 1.3;
         text-align: justify;
@@ -334,7 +394,8 @@ export default {
       }
       h3 {
         margin: 0;
-        padding: 4px 10px;
+        padding: 5px 10px;
+        font-size: 15px;
         text-align: justify;
         text-align-last: left;
         color: #2c3e50;
