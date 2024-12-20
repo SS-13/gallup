@@ -8,12 +8,12 @@ import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf';
       :before-upload="handleFileUpload"
     >
       <el-button size="small" type="primary">点击上传</el-button>
-      <div slot="tip" class="el-upload__tip">只能上传pdf文件</div>
+      <div slot="tip" class="el-upload__tip">上传34才干pdf文件</div>
     </el-upload>
     <div class="personal-view__list">
       <personal-card
-        v-for="(item, index) in cardlist"
-        :key="index"
+        v-for="item in cardlist"
+        :key="item.id"
         :person-info="item"
         @delete="handleDeleteCard"
         @edit="handleEditName"
@@ -25,7 +25,11 @@ import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf';
 <script>
 // eslint-disable-next-line import/extensions, import/no-unresolved
 import * as pdfjsLib from 'pdfjs-dist/build/pdf.mjs';
-import { getPersonalStrengthByPDFStrArray, generateUUID } from '@/utils/tool';
+import {
+  getPersonalStrengthByPDFStrArray,
+  generateUUID,
+  extractMatches,
+} from '@/utils/tool';
 import { getCardList, setCardList } from '@/utils/cache';
 import PersonalCard from '@/components/PersonalCard/index.vue';
 
@@ -84,12 +88,20 @@ export default {
       }
       const pdfStrArray = await Promise.all(waterfall);
       const talentOrders = getPersonalStrengthByPDFStrArray(pdfStrArray);
+      const firstFiveDesc = extractMatches(pdfStrArray);
+      console.log(
+        firstFiveDesc,
+        JSON.stringify(firstFiveDesc),
+        'firstFiveDesc',
+      );
+      const { name, matches } = firstFiveDesc;
 
       const cardlist = getCardList();
-      cardlist.push({
+      cardlist.unshift({
         id: generateUUID(),
-        name: `用户${cardlist.length + 1}`,
+        name: name || `用户${cardlist.length + 1}`,
         talentOrders,
+        description: matches,
       });
 
       setCardList(cardlist);
@@ -139,7 +151,7 @@ export default {
     position: absolute;
     top: 4px;
     right: 20px;
-    width: 100px;
+    width: 110px;
     height: 60px;
     border: 1px dashed #d9d9d9;
     padding: 10px;

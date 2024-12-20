@@ -82,6 +82,42 @@ export const findMaxByStatistics = (data) => {
   return max;
 };
 
+export const extractMatches = (arrayOfStrings) => {
+  let name = '';
+  const regex = /结果个性化定制。([^\s"]*)。成功运用([^\s"]*)\|\|/;
+  const matches = arrayOfStrings
+    .map((str) => {
+      const match = str.match(regex);
+      console.log(match, 'match');
+      let formated = null;
+      if (match) {
+        formated = {};
+        // eslint-disable-next-line prefer-destructuring
+        formated.unsplitedDesc = match[1];
+        formated.splitDesc = match[1].split('。').map((txt) => `${txt}。`);
+        // eslint-disable-next-line prefer-destructuring
+        const temp = match[2];
+        const splitSpot = temp.lastIndexOf('。') + 1;
+
+        formated.reason = temp.substring(5, splitSpot);
+
+        if (!name) {
+          const tempName = temp.substring(splitSpot);
+          const halfLength = Math.floor(tempName.length / 2);
+          name = tempName.substring(0, halfLength);
+        }
+      }
+
+      return formated;
+    })
+    .filter((item) => !!item);
+
+  return {
+    matches,
+    name,
+  };
+};
+
 export default {
   ATTENTION_ANDICATOR,
 };

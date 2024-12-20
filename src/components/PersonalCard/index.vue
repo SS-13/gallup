@@ -48,20 +48,48 @@
       </el-popconfirm>
     </div>
     <div class="personal-card__content">
-      <div class="personal-card__content__1to5">
-        <div class="label">1 - 5 :</div>
-        <el-tag
-          v-for="(advantage, index) in advantage1to5"
-          :key="`advantage1_5_${index}`"
-          size="small"
-          :color="advantage.color"
-          :style="{
-            filter: 'grayscale(0.1)',
-            color: '#ffffff',
-          }"
-          >{{ advantage.CName }}</el-tag
-        >
-      </div>
+      <el-popover
+        placement="right"
+        title="前五才干详情"
+        width="600"
+        height="600"
+        trigger="click"
+      >
+        <div>
+          <el-tabs tab-position="left">
+            <el-tab-pane
+              :label="advantage.CName"
+              v-for="(advantage, idx) in advantage1to5"
+              :key="`advantage_${idx}`"
+            >
+              <div class="personal-card__content__desc">
+                <p
+                  :style="{ backgroundColor: hexToRgb(advantage.color, 0.4) }"
+                  v-for="(desc, jdx) in description[idx].splitDesc"
+                  :key="`desc_${jdx}`"
+                >
+                  {{ desc }}
+                </p>
+                <h3>{{ description[idx].reason }}</h3>
+              </div>
+            </el-tab-pane>
+          </el-tabs>
+        </div>
+        <div slot="reference" class="personal-card__content__1to5">
+          <div class="label">1 - 5 :</div>
+          <el-tag
+            v-for="(advantage, index) in advantage1to5"
+            :key="`advantage1_5_${index}`"
+            size="small"
+            :color="advantage.color"
+            :style="{
+              filter: 'grayscale(0.1)',
+              color: '#ffffff',
+            }"
+            >{{ advantage.CName }}</el-tag
+          >
+        </div>
+      </el-popover>
 
       <div class="personal-card__content__6to10">
         <div class="label">6 - 10 :</div>
@@ -136,6 +164,7 @@ export default {
       strengthsMap: {},
       isEdit: false,
       name: '',
+      description: [],
     };
   },
   mounted() {
@@ -144,6 +173,19 @@ export default {
     this.name = this.personInfo.name;
   },
   methods: {
+    hexToRgb(color, opacity = 1) {
+      // 去除#符号
+      const hex = color.replace('#', '');
+      // 确保是6位16进制数
+      if (hex.length !== 6) {
+        throw new Error('Invalid HEX color.');
+      }
+      // 将16进制转换为RGB
+      const r = parseInt(hex.substring(0, 2), 16);
+      const g = parseInt(hex.substring(2, 4), 16);
+      const b = parseInt(hex.substring(4, 6), 16);
+      return `rgb(${r}, ${g}, ${b}, ${opacity})`;
+    },
     handleNameEdit(type) {
       if (type === 'save') {
         this.$emit('edit', {
@@ -160,7 +202,13 @@ export default {
       this.$emit('delete', this.personInfo.id);
     },
     handlePersonInfo() {
-      const { talentOrders } = this.personInfo;
+      console.log(
+        '%c [ this.personInfo ]-164',
+        'font-size:13px; background:pink; color:#bf2c9f;',
+        this.personInfo,
+      );
+      const { talentOrders, description } = this.personInfo;
+      this.description = description;
       const advantage1to5 = [];
       const advantage6to10 = [];
       const advantage11to16 = [];
@@ -231,7 +279,7 @@ export default {
   &__content {
     position: relative;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 0 10px 10px 10px;
 
     &__1to5,
     &__6to10,
@@ -257,6 +305,39 @@ export default {
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: flex-start;
+      }
+    }
+
+    &__1to5 {
+      box-sizing: border-box;
+      cursor: pointer;
+      padding: 4px 0px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      &:hover {
+        background-color: #f5f7fa;
+        border: 1px dashed #2c3e50;
+        border-radius: 4px;
+      }
+    }
+
+    &__desc {
+      width: 100%;
+      p {
+        margin: 0 0 3px 0;
+        padding: 4px 10px;
+        font-size: 14px;
+        line-height: 1.3;
+        text-align: justify;
+        text-align-last: left;
+        color: #2c3e50;
+      }
+      h3 {
+        margin: 0;
+        padding: 4px 10px;
+        text-align: justify;
+        text-align-last: left;
+        color: #2c3e50;
       }
     }
   }
