@@ -211,12 +211,16 @@ export default {
         const classmates = [];
         jsonData.forEach((item) => {
           // console.log(item);
-          if (item['姓名'] && item['期数'] === 5) {
+          if (item['姓名']) {
             const advantages = {};
             // 6-10项优势才干: "思维, 理念, 体谅, 战略, 审慎"
-            const advantages6to10Arr = item['第6-10项优势才干'].split(' ');
+            // eslint-disable-next-line operator-linebreak
+            const advantages6to10Arr = item['6-10项优势才干'].split(' ');
+            // eslint-disable-next-line operator-linebreak
             const advantages1to5Arr = item['前5项优势才干'].split(' ');
-            const advantages30to34 = item['后五才干'].split(' ');
+            const advantages30to34 = item['后五才干']
+              ? item['后五才干'].split(' ')
+              : [];
             advantages6to10Arr.forEach((o, idx) => {
               advantages[`advantage${idx + 6}`] = this.findAdvantage(
                 // eslint-disable-next-line comma-dangle
@@ -246,10 +250,10 @@ export default {
             // 目前在工作中想要解决的一个问题: "害怕与别人发生冲突"
             classmates.push({
               name: item['姓名'],
-              class: item['期数'],
+              class: 9, // item['期数'],
               ...advantages,
-              industry: item['行业'],
-              position: item['岗位'],
+              // industry: item['你所在的行业（必填）'],
+              // position: item['你所在的岗位（必填）'],
               // wxNickname: item['你的微信昵称'],
               // problem: item['目前在工作中想要解决的一个问题'],
               // want: item['希望通过优势初级班课程，收获什么？'],

@@ -67,6 +67,11 @@ import CLASSMATES_2_JSON from '@/utils/data/CLASSMATES_2.json';
 import CLASSMATES_3_JSON from '@/utils/data/CLASSMATES_3.json';
 import CLASSMATES_4_JSON from '@/utils/data/CLASSMATES_4.json';
 import CLASSMATES_5_JSON from '@/utils/data/CLASSMATES_5.json';
+import CLASSMATES_6_JSON from '@/utils/data/CLASSMATES_6.json';
+import CLASSMATES_7_JSON from '@/utils/data/CLASSMATES_7.json';
+import CLASSMATES_8_JSON from '@/utils/data/CLASSMATES_8.json';
+import CLASSMATES_9_JSON from '@/utils/data/CLASSMATES_9.json';
+import CLASSMATES_10_JSON from '@/utils/data/CLASSMATES_10.json';
 // eslint-disable-next-line import/no-unresolved
 // import CLASSMATES_DEMO_JSON from '@/utils/data/CLASSMATES_DEMO.json';
 import ADVANTAGES_34 from '@/utils/data/ADVANTAGES_34.json';
@@ -93,11 +98,19 @@ export default {
       pageSize: 10,
       total: 0,
       update: 0,
-      classroom: '5',
+      classroom: '9',
       classOptions: [
         {
           value: 'all',
           label: '全部',
+        },
+        {
+          value: '9',
+          label: '优势探索1期',
+        },
+        {
+          value: '10',
+          label: '优势探索2期',
         },
         {
           value: '1',
@@ -119,6 +132,18 @@ export default {
           value: '5',
           label: '5期',
         },
+        {
+          value: '6',
+          label: '6期',
+        },
+        {
+          value: '7',
+          label: '7期',
+        },
+        {
+          value: '8',
+          label: '8期',
+        },
       ],
       classes: {
         CLASSMATES_1_JSON,
@@ -126,6 +151,11 @@ export default {
         CLASSMATES_3_JSON,
         CLASSMATES_4_JSON,
         CLASSMATES_5_JSON,
+        CLASSMATES_6_JSON,
+        CLASSMATES_7_JSON,
+        CLASSMATES_8_JSON,
+        CLASSMATES_9_JSON,
+        CLASSMATES_10_JSON,
         // CLASSMATES_DEMO_JSON,
       },
     };
@@ -223,7 +253,7 @@ export default {
       if (this.classroom === 'all') {
         classroom = [];
         // eslint-disable-next-line no-plusplus
-        for (let i = 1; i <= 5; i++) {
+        for (let i = 1; i <= this.classOptions.length - 1; i++) {
           classroom = [...classroom, ...this.classes[`CLASSMATES_${i}_JSON`]];
         }
       } else {
@@ -434,7 +464,7 @@ export default {
     // padding: 38px 0 0 0;
 
     &__select {
-      width: 74px;
+      width: 174px;
       margin-bottom: 10px;
     }
 

@@ -3,7 +3,7 @@
     <el-table :data="tableData" style="width: 100%" @sort-change="handleSort">
       <el-table-column fixed prop="name" label="姓名" width="75">
       </el-table-column>
-      <el-table-column v-if="hasClass" prop="class" label="班级" width="35">
+      <el-table-column v-if="hasClass" prop="class" label="班级" width="45">
       </el-table-column>
       <!-- <el-table-column prop="class" label="班级" width="90"></el-table-column> -->
       <el-table-column label="优势1-5" width="250">
